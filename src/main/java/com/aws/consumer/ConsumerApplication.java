@@ -2,12 +2,9 @@ package com.aws.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.amazonaws.regions.Regions;
-
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
-import com.amazonaws.services.s3.model.ListObjectsV2Result;
 import com.amazonaws.services.s3.model.ObjectListing;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -22,9 +19,6 @@ import java.util.List;
 public class ConsumerApplication {
 
 //	source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
-   
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
 		System.out.println("consumer application for AWS s3 bucket");
@@ -37,10 +31,6 @@ public class ConsumerApplication {
 			System.out.println("bucket name" + b.getName());
 		}
 		System.out.println();
-
-		
-		
-		
 		
 //		read objects in bucket2 = "usu-cs5260-ironman-requests"
 		String bucketName2 = "usu-cs5260-ironman-requests";
