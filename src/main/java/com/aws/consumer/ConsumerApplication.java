@@ -11,6 +11,8 @@ import com.amazonaws.services.dynamodbv2.document.Item;
 import com.amazonaws.services.dynamodbv2.document.PutItemOutcome;
 import com.amazonaws.services.dynamodbv2.document.Table;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
+import com.amazonaws.services.dynamodbv2.model.DescribeTableRequest;
+import com.amazonaws.services.dynamodbv2.model.DescribeTableResult;
 import com.amazonaws.services.dynamodbv2.model.ListTablesRequest;
 import com.amazonaws.services.dynamodbv2.model.ListTablesResult;
 import com.amazonaws.services.dynamodbv2.model.PutItemRequest;
@@ -102,7 +104,7 @@ public class ConsumerApplication {
 
 		if (requestType.equals(jsonNode.get("type").asText())) {
 			s3.putObject(bucketName3, objectKey3, widget.toString());
-			dynamoDBputObject(widget);
+//			dynamoDBputObject(widget);
 			System.out.println("Object uploaded to S3: " + objectKey3);
 			s3.deleteObject(bucketName2, objectKey2);
 			System.out.println(objectKey2 + "is deleted from bucket 2");
@@ -118,16 +120,30 @@ public class ConsumerApplication {
 	public static void dynamoDBputObject(Widget widget) {
 		AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
         DynamoDB dynamoDB = new DynamoDB(client);
+        
+        String tableName = "widgets";
 
-        Table table = dynamoDB.getTable("MyTable");
+        DescribeTableRequest request = new DescribeTableRequest()
+                .withTableName(tableName);
 
-        Item item = new Item()
-                .withPrimaryKey("id", widget.getId())
-                .withString("owner", widget.getOwner())
-                .withString("description", widget.getDescription())
-                .withList("otherAttributes", widget.getOtherAttributes());
+        DescribeTableResult result = ((AmazonDynamoDB) dynamoDB).describeTable(request);
 
-        PutItemOutcome outcome = table.putItem(item);
+        System.out.println("Table name: " + result.getTable().getTableName());
+        System.out.println("Table status: " + result.getTable().getTableStatus());
+        System.out.println("Table schema: " + result.getTable().getAttributeDefinitions());
+        System.out.println("Table provisioned throughput: " + result.getTable().getProvisionedThroughput());//       PutItemRequest 
+//        client.putItem(null)
+//        Table table = dynamoDB.getTable
+//        
+//        System.out.println(table);
+//
+//        Item item = new Item()
+//                .withPrimaryKey("id", widget.getId())
+//                .withString("owner", widget.getOwner())
+//                .withString("description", widget.getDescription())
+//                .withList("otherAttributes", widget.getOtherAttributes());
+//
+//        PutItemOutcome outcome = table.putItem(item);
 
 	}
 
