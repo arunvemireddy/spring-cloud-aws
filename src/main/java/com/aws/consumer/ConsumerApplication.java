@@ -17,22 +17,9 @@ import java.util.List;
 
 @SpringBootApplication
 public class ConsumerApplication {
-
-//	source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
-	public static void main(String[] args) {
-		SpringApplication.run(ConsumerApplication.class, args);
-		System.out.println("consumer application for AWS s3 bucket");
-		final AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
-
-//		list of s3 buckets
-		List<Bucket> buckets = s3.listBuckets();
-		System.out.println("Your {S3} buckets are:");
-		for (Bucket b : buckets) {
-			System.out.println("bucket name" + b.getName());
-		}
-		System.out.println();
-		
-//		read objects in bucket2 = "usu-cs5260-ironman-requests"
+	
+	public Boolean process(AmazonS3 s3) {
+	
 		String bucketName2 = "usu-cs5260-ironman-requests";
 		String bucketName3 = "usu-cs5260-ironman-web";
 		String requestType = "create";
@@ -77,13 +64,11 @@ public class ConsumerApplication {
 	
 			        }else {
 //			        	deleting other requests(delete and update)
-		
 			        	s3.deleteObject(bucketName2,objectKey2);
 			        	 System.out.println(objectKey2+"is deleted from bucket 2");
 			        }
 			        
 				} catch (Exception e) {
-					// TODO: handle exception
 //					some requests does not have type or object key is invalid so I am deleting those objects here
 					s3.deleteObject(bucketName2,objectKey2);
 				}
@@ -107,6 +92,27 @@ public class ConsumerApplication {
 			}
 		}
 		System.out.println(programEnded);
+		return true;
+	}
+
+//	source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
+	public static void main(String[] args) {
+		SpringApplication.run(ConsumerApplication.class, args);
+		System.out.println("consumer application for AWS s3 bucket");
+		final AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
+		
+		ConsumerApplication consumerApplication = new ConsumerApplication();
+		consumerApplication.process(s3);
+		System.exit(0);
+		
+//		list of s3 buckets
+//		List<Bucket> buckets = s3.listBuckets();
+//		System.out.println("Your {S3} buckets are:");
+//		for (Bucket b : buckets) {
+//			System.out.println("bucket name" + b.getName());
+//		}
+//		System.out.println();
+		
 	}
 
 }
