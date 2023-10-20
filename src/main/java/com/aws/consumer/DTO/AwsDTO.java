@@ -2,6 +2,8 @@ package com.aws.consumer.DTO;
 
 import org.springframework.stereotype.Component;
 
+//author arun vemireddy
+
 @Component
 public class AwsDTO {
 

@@ -866,3 +866,25 @@
 2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408056is deleted from bucketusu-cs5260-ironman-requests
 2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8d33dc3e-b365-4c73-8fc0-073947993bd0Object uploaded to bucketusu-cs5260-ironman-web
 2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408225is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:08:58 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 75750 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 16:08:58 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:08:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:08:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 16:08:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 16:08:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 16:08:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+2023-10-20 16:08:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:08:59 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.188 seconds (process running for 1.519)
+2023-10-20 16:08:59 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 16:09:00 [main] WARN  com.amazonaws.util.Base64 - JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+2023-10-20 16:09:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f0e6e7a2-8ff2-44bc-8279-b90c30a05c6fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 16:09:01 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408267is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:01 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408326is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:01 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c54287cd-2ff1-4a2d-9a2f-67a3abc48ae8Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 16:09:01 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408532is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:02 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408564is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:02 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/62182521-2305-40fd-aca0-eab822506c10Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 16:09:02 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408847is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/38695768-ec15-48f3-ad34-9b9e74653fd4Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408876is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408934is deleted from bucketusu-cs5260-ironman-requests

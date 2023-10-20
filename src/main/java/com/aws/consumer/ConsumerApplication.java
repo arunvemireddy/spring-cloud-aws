@@ -19,6 +19,8 @@ import com.aws.consumer.DTO.AwsDTO;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+//author arun vemireddy
+
 @SpringBootApplication(scanBasePackages = { "com.aws.consumer" })
 public class ConsumerApplication {
 
@@ -34,7 +36,7 @@ public class ConsumerApplication {
 
 	public final static Logger log = LogManager.getLogger(ConsumerApplication.class);
 
-	public void process(AmazonS3 s3) {
+	public Boolean process(AmazonS3 s3) {
 		boolean stopCondition = false;
 		ObjectListing objectListing = s3.listObjects(awsDTO.getBucketName2());
 
@@ -75,6 +77,7 @@ public class ConsumerApplication {
 			}
 		}
 		log.info(awsDTO.getProgramEnded());
+		return true;
 	}
 	
 //	source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html

@@ -1,8 +1,9 @@
 package com.aws.consumer.DTO;
 
 import java.util.List;
-
 import org.springframework.stereotype.Component;
+
+//author arun vemireddy
 
 @Component
 public class Widget {

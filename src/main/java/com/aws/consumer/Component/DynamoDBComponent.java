@@ -16,6 +16,8 @@ import com.aws.consumer.DTO.OtherAttribute;
 
 //src https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-dynamodb-tables.html
 
+//author arun vemireddy
+
 @Component
 public class DynamoDBComponent {
 	final AmazonDynamoDB ddb = AmazonDynamoDBClientBuilder.standard().build();

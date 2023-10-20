@@ -14,6 +14,7 @@ import com.aws.consumer.DTO.OtherAttribute;
 import com.aws.consumer.DTO.Widget;
 import com.fasterxml.jackson.databind.JsonNode;
 
+// author arun vemireddy
 
 //source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
 @Component
