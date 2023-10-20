@@ -1,0 +1,868 @@
+2023-10-20 14:33:11 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73507 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:33:11 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:33:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:33:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:33:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:33:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:33:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 642 ms
+2023-10-20 14:33:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:33:12 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.067 seconds (process running for 1.406)
+2023-10-20 14:33:12 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:33:13 [main] WARN  com.amazonaws.util.Base64 - JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+2023-10-20 14:33:13 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/a0f73bad-6cc9-4255-83bc-0d3ed196f2f3Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:13 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107161is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/29338a91-ed78-49e9-a78d-485d58c27de5Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107234is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107428is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/b8b68334-1515-4f69-92df-00f58bd9d724Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107577is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107611is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:15 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/77be5d54-c340-4146-9c74-d99fb0ce8215Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107753is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823107944is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/aa1472eb-4004-4fb5-81d1-73163cb70d19Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108100is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108302is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/e43a50b9-d20b-4a08-bb3a-8d70a6b0c7eeObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108502is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:17 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/99e9bd34-8248-479d-906d-11b02821af7dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108578is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:17 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/71f867a0-7fe1-4ff4-9362-d64ad273af02Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108762is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:18 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/dff147a7-b884-4694-ac8a-d2c4e9404d19Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108817is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823108886is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109125is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/3d55b563-a46f-435f-9ab2-79566360a45eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109257is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/559f8747-d6bb-487f-9d7a-851d45479e6cObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109390is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8b41afd0-0e1e-44f4-a766-3da4769c5050Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:33:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109420is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:33:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109482is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:54 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73610 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:38:54 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:38:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:38:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:38:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:38:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:38:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 499 ms
+2023-10-20 14:38:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:38:54 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.923 seconds (process running for 1.251)
+2023-10-20 14:38:54 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:38:55 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47e9a9b6-1cc2-41eb-a502-36e9913b9b53, owner=Sue Smith, description=, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width, value=583], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=795], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=3.03], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:38:55 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:55 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=03ce36d9-d31b-4603-9cd8-a106193c7164, owner=Mary Matthews, description=WRMCPSJWMVTEQEFPZMGQBGL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=5.79], OtherAttribute [name=quantity, value=612]]]
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109863is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110036is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=10d87145-f82a-4811-a8a8-77a66314e9ba, owner=Henry Hops, description=XFGTXBDUNULTIJMRXSOSUKOLQESNZBFHSEHEDYKRASTQORCIRNXGQKUKXYRFINYDRCKETEEBYMZEINNYFRWBEEPLXJOVEDDZJ, otherAttributes=[OtherAttribute [name=color, value=blue], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=797], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=296], OtherAttribute [name=quantity, value=799], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47116ab3-0c87-4e25-aa90-39ccfdd2c755, owner=Henry Hops, description=TOCNHYZOJKWUKJFVYRJNIBDRBMCEGMOCTG, otherAttributes=[OtherAttribute [name=vendor, value=QYTDCFTSTGKRBH], OtherAttribute [name=note, value=NSOCGIVFTQZWJRMOEMZFQMAVIWOHULSKNBEZOELWEFTLKQQPXTTTVEOUXOUFHCULFFXJTFVWACFHMMPIXUGSOIQNHREZOUTUHCLGOPXBECEQMBEGIBKWRADVKVKTDXQBDDAQJNXDZBVSVBOYVPRLBGUHSJSWZXZDTFIVOUQHPEDOWALCHTNMVGYMXQQLGMYYZDJIHUGS]]]
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:56 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110267is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110480is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110683is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=95ff6aa2-0932-4c96-98a7-aaf19cbd599a, owner=Henry Hops, description=VATMVAAKVTKUNUWFSZXQRJYZYBHZUZNJVBISNHDJHYXYGRKVWJJOIZVAPXCR, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size, value=369], OtherAttribute [name=height, value=588], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=676]]]
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111112is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111327is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:58 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111474is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111608is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=113132d7-ede9-4e10-aa15-428837594ccb, owner=Sue Smith, description=LUCHAGJSICLCMLB, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=length, value=322], OtherAttribute [name=rating, value=3.4895701], OtherAttribute [name=quantity, value=502]]]
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=28c5ac15-a03e-4510-ad99-6ac8dcc7cc7f, owner=Mary Matthews, description=HKUIGTSEEVCGBXXWKUTVNLBDGJIMKGACTFMTGOULYSUDUWWEZJRZLBYLLBZKELCANKCELDU, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=width, value=750], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=quantity, value=921], OtherAttribute [name=vendor, value=DBNXMNCPJAZSDXHDSX], OtherAttribute [name=note, value=JGXWFLUINSYLXWTRVYPMMQSLSMUBOATPXPGWCVUWCVCPXFEHGGLEFIXEITJBXFLUKWNHPTOVMVLXPJJVTQJSJKUDHLIQGJXTLGJGFNUTBCIPIWMAQSLHHPGBFEFDHAZKDOIGCRLGKNHWRSHTSGDPCFQMCECCRRCJSBNMCMPRHYEFQOPBVTRTLQZJLMXUZFJJMTHJQSUEVABWVYSSYXBEVIBBSLSWVMLLYCYHIBFPTLEQXEUPDWBFBGFATODZVTFPMAQHIXHELDOKTGQWYCRFYDBUVSGAMJQAUBHC]]]
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111822is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111998is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=910b0626-eba2-4813-b326-5888ff7d4495, owner=Henry Hops, description=MXHXSEW, otherAttributes=[OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=quantity, value=234]]]
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=7d8889b0-8ff3-481d-a593-74298ed1133e, owner=Sue Smith, description=CKSXIEZWKUSNYAXJFVYWUNC, otherAttributes=[OtherAttribute [name=size, value=884], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=rating, value=3.9008536], OtherAttribute [name=price, value=31.91], OtherAttribute [name=quantity, value=16], OtherAttribute [name=vendor, value=XWI], OtherAttribute [name=note, value=RCKFCWUEQVEAYANAWAM]]]
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=51a3c931-8b83-4857-9b80-1fe1d6d0da2d, owner=John Jones, description=GCACILHHIXIOFNJDIWCLZMRCUMHWNMZDVBDRCQHKGWUSMFWVZB, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=144], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=price, value=61.82], OtherAttribute [name=vendor, value=FFPWWCSWGETKVJYWHIC]]]
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=c32c6514-4739-41b4-9cfe-c3efdcae644d, owner=Sue Smith, description=PNKXLIRUOUWFRMEIIGYOOZHZQRPCVICGLXORQSDL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=vendor, value=OSH], OtherAttribute [name=note, value=NHMGPNMTXUSMRTYXBINBEYGXGWWNUAPWVHDNRWPQGYQFIWKZGQWKAUNMFKAJWURHEYDIKYDXMLSEBWSUJGKFLKVZSOTBOAOLVEEJQEHSKNOFRLXXRZTYSVTQZQVJUXGMAZTRTDADIWEAWQQNZLJXHFHHWVQUUHUJYOGZRVDYSWCDMGYWPMWWIOOPAORDMJEOLYKUXYYGFRKLALCJZUJWEHVAXVDDECGWHBFJRFEVCMQEJWBQADYJGNPIOQGBJYNIJGS]]]
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=39bf54fa-525a-43ed-bf70-f5219e808307, owner=Mary Matthews, description=DDFZMZJSDTSGMEGPRBERRMKSCTGMLPZPWSIWNHBD, otherAttributes=[OtherAttribute [name=size, value=642], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=815], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=34.75], OtherAttribute [name=vendor, value=RQOP]]]
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:04 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73737 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:44:04 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:44:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:44:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:44:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:44:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:44:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 493 ms
+2023-10-20 14:44:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:44:04 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.907 seconds (process running for 1.232)
+2023-10-20 14:44:04 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47e9a9b6-1cc2-41eb-a502-36e9913b9b53, owner=Sue Smith, description=, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width, value=583], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=795], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=3.03], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=03ce36d9-d31b-4603-9cd8-a106193c7164, owner=Mary Matthews, description=WRMCPSJWMVTEQEFPZMGQBGL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=5.79], OtherAttribute [name=quantity, value=612]]]
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=10d87145-f82a-4811-a8a8-77a66314e9ba, owner=Henry Hops, description=XFGTXBDUNULTIJMRXSOSUKOLQESNZBFHSEHEDYKRASTQORCIRNXGQKUKXYRFINYDRCKETEEBYMZEINNYFRWBEEPLXJOVEDDZJ, otherAttributes=[OtherAttribute [name=color, value=blue], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=797], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=296], OtherAttribute [name=quantity, value=799], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47116ab3-0c87-4e25-aa90-39ccfdd2c755, owner=Henry Hops, description=TOCNHYZOJKWUKJFVYRJNIBDRBMCEGMOCTG, otherAttributes=[OtherAttribute [name=vendor, value=QYTDCFTSTGKRBH], OtherAttribute [name=note, value=NSOCGIVFTQZWJRMOEMZFQMAVIWOHULSKNBEZOELWEFTLKQQPXTTTVEOUXOUFHCULFFXJTFVWACFHMMPIXUGSOIQNHREZOUTUHCLGOPXBECEQMBEGIBKWRADVKVKTDXQBDDAQJNXDZBVSVBOYVPRLBGUHSJSWZXZDTFIVOUQHPEDOWALCHTNMVGYMXQQLGMYYZDJIHUGS]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=95ff6aa2-0932-4c96-98a7-aaf19cbd599a, owner=Henry Hops, description=VATMVAAKVTKUNUWFSZXQRJYZYBHZUZNJVBISNHDJHYXYGRKVWJJOIZVAPXCR, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size, value=369], OtherAttribute [name=height, value=588], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=676]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=113132d7-ede9-4e10-aa15-428837594ccb, owner=Sue Smith, description=LUCHAGJSICLCMLB, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=length, value=322], OtherAttribute [name=rating, value=3.4895701], OtherAttribute [name=quantity, value=502]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=28c5ac15-a03e-4510-ad99-6ac8dcc7cc7f, owner=Mary Matthews, description=HKUIGTSEEVCGBXXWKUTVNLBDGJIMKGACTFMTGOULYSUDUWWEZJRZLBYLLBZKELCANKCELDU, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=width, value=750], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=quantity, value=921], OtherAttribute [name=vendor, value=DBNXMNCPJAZSDXHDSX], OtherAttribute [name=note, value=JGXWFLUINSYLXWTRVYPMMQSLSMUBOATPXPGWCVUWCVCPXFEHGGLEFIXEITJBXFLUKWNHPTOVMVLXPJJVTQJSJKUDHLIQGJXTLGJGFNUTBCIPIWMAQSLHHPGBFEFDHAZKDOIGCRLGKNHWRSHTSGDPCFQMCECCRRCJSBNMCMPRHYEFQOPBVTRTLQZJLMXUZFJJMTHJQSUEVABWVYSSYXBEVIBBSLSWVMLLYCYHIBFPTLEQXEUPDWBFBGFATODZVTFPMAQHIXHELDOKTGQWYCRFYDBUVSGAMJQAUBHC]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=910b0626-eba2-4813-b326-5888ff7d4495, owner=Henry Hops, description=MXHXSEW, otherAttributes=[OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=quantity, value=234]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=7d8889b0-8ff3-481d-a593-74298ed1133e, owner=Sue Smith, description=CKSXIEZWKUSNYAXJFVYWUNC, otherAttributes=[OtherAttribute [name=size, value=884], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=rating, value=3.9008536], OtherAttribute [name=price, value=31.91], OtherAttribute [name=quantity, value=16], OtherAttribute [name=vendor, value=XWI], OtherAttribute [name=note, value=RCKFCWUEQVEAYANAWAM]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=51a3c931-8b83-4857-9b80-1fe1d6d0da2d, owner=John Jones, description=GCACILHHIXIOFNJDIWCLZMRCUMHWNMZDVBDRCQHKGWUSMFWVZB, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=144], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=price, value=61.82], OtherAttribute [name=vendor, value=FFPWWCSWGETKVJYWHIC]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=c32c6514-4739-41b4-9cfe-c3efdcae644d, owner=Sue Smith, description=PNKXLIRUOUWFRMEIIGYOOZHZQRPCVICGLXORQSDL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=vendor, value=OSH], OtherAttribute [name=note, value=NHMGPNMTXUSMRTYXBINBEYGXGWWNUAPWVHDNRWPQGYQFIWKZGQWKAUNMFKAJWURHEYDIKYDXMLSEBWSUJGKFLKVZSOTBOAOLVEEJQEHSKNOFRLXXRZTYSVTQZQVJUXGMAZTRTDADIWEAWQQNZLJXHFHHWVQUUHUJYOGZRVDYSWCDMGYWPMWWIOOPAORDMJEOLYKUXYYGFRKLALCJZUJWEHVAXVDDECGWHBFJRFEVCMQEJWBQADYJGNPIOQGBJYNIJGS]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=39bf54fa-525a-43ed-bf70-f5219e808307, owner=Mary Matthews, description=DDFZMZJSDTSGMEGPRBERRMKSCTGMLPZPWSIWNHBD, otherAttributes=[OtherAttribute [name=size, value=642], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=815], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=34.75], OtherAttribute [name=vendor, value=RQOP]]]
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:07 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=db63798c-b7e3-47c4-9413-d2d1679c4f54, owner=Mary Matthews, description=JUZJAIVTSOWHTLDJTOEJJJKQHIEI, otherAttributes=[OtherAttribute [name=size, value=652], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=quantity, value=939], OtherAttribute [name=vendor, value=GYMKPXCADXQPDBNKCE]]]
+2023-10-20 14:44:07 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/db63798c-b7e3-47c4-9413-d2d1679c4f54Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112668is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112964is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=1b95e789-c83b-41f7-aa0c-ec7f1097fa6d, owner=Henry Hops, description=VTLBPYMWZJAEWTWKS, otherAttributes=[OtherAttribute [name=color, value=pink], OtherAttribute [name=size, value=463], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=rating, value=3.7418385], OtherAttribute [name=price, value=33.9], OtherAttribute [name=quantity, value=293], OtherAttribute [name=vendor, value=KEM]]]
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1b95e789-c83b-41f7-aa0c-ec7f1097fa6dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113108is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=d25ac637-3d6e-4d3c-88d4-ac5f43c34c04, owner=Mary Matthews, description=QRWFLLPGKENDCEBODHZUPYMMADHNKQQT, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=rating, value=4.5786495], OtherAttribute [name=price, value=58.82], OtherAttribute [name=quantity, value=541]]]
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d25ac637-3d6e-4d3c-88d4-ac5f43c34c04Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113140is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=2221f650-f8aa-4988-af43-b68518259a3b, owner=John Jones, description=PENYKOCAYMAPCMTXVQJRINLYYMBCKHMKXBAAJXXPEYMIPFZKIQQXYDBXLUCMLQZQLGXZDCOMWMOCRNSOWFN, otherAttributes=[OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=quantity, value=518]]]
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/2221f650-f8aa-4988-af43-b68518259a3bObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113228is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=24f4b0d5-7194-43c0-9827-b781b9637d7a, owner=Mary Matthews, description=ABQOMYAGMKMSJUDIRJCQQBMEXCPRUZPW, otherAttributes=[OtherAttribute [name=height, value=919], OtherAttribute [name=width, value=953], OtherAttribute [name=length, value=915], OtherAttribute [name=rating, value=4.3441734], OtherAttribute [name=quantity, value=512]]]
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/24f4b0d5-7194-43c0-9827-b781b9637d7aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113276is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113338is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=bd363803-6642-4665-836d-14925a2faf68, owner=Mary Matthews, description=GMGCBFELYCJKCKTNMWZEGOKEUUJKFXZEYVELVOLIXXVBQEXNIDILRVEEBRELI, otherAttributes=[OtherAttribute [name=color, value=red], OtherAttribute [name=note, value=ZCPRCMEXIWJAUNIZZEIGTOTXSBUSDXCDFTLDYDZBBNYIKMBZUNRWLCOTIMUDMYCPOFWBBDEPPEVXBTDXRGLGIOJCZYFHEJPOXPCEJKQTYISFFNBXFQQEROTKRFRSHQEUVSFYVUHBLGHHHNAFAXALSUUHUUJMJXZLILTVJHTOZTBEDJXYXUPENCPWOSUKWYDJTTONDDLMQGEMBWRNHNCOEYLCFGAIKGDGZXFDASPZEUZLDBBAWBFWVGZCLCMHXFOIDHMMUCGXGPBUJUVJXHZJQIGCSWAHSUVSEGVWFIIJEGD]]]
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bd363803-6642-4665-836d-14925a2faf68Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113519is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113714is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=7cd2f37b-732d-45df-900f-9d8d56e3f90d, owner=Sue Smith, description=CTKLAOSWRNYRIVDOXUMKOHXBQFGLBFEEUFTBK, otherAttributes=[OtherAttribute [name=size, value=26], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=976], OtherAttribute [name=rating, value=0.17935038], OtherAttribute [name=price, value=70.87], OtherAttribute [name=vendor, value=CPNYFSUITYC], OtherAttribute [name=note, value=QQNMZBIGTFXBGHQSRPEGGCNPCNRTSMYFQDQCBRSQFGWOTDFKDENJMQMFTUMBWGBDQYXRVMHJGVAXZXHPGDYEQHTGFMOHWSTUFWRLBTDHIQTXRVLCKXJSLYDBKXOQUUYRMNNYEN]]]
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7cd2f37b-732d-45df-900f-9d8d56e3f90dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113908is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113943is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=776097cf-60f7-43ea-99c2-4ac6f4b0e9ca, owner=Sue Smith, description=UJFNBJAGRVZTISKARERCZQXFBOIACFAXEKJLWKRJQHYLCDHXGKQEBYBLWRKAPXMXLVOLHKXBPRNNRGTAHGPHTYFSK, otherAttributes=[OtherAttribute [name=size, value=704], OtherAttribute [name=height, value=740], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=length, value=466], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=rating, value=3.4658084], OtherAttribute [name=price, value=91.38], OtherAttribute [name=note, value=DMTVHOPHGRCBIWCQLCMQJNXHCVLNJRPSNDENMNPRJOEZJQPZZKXVGYAPLHOUBUSZURXTMXDWVEOVSJIOMQYHKJPLFGOPNYZFXNGKYQE]]]
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/776097cf-60f7-43ea-99c2-4ac6f4b0e9caObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114078is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114136is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114312is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=73cdbabc-d1ef-460e-9169-f7231cb71eb7, owner=John Jones, description=DXVRWSNWHJAGNTONQCVWLPUUQIFAQMHXYTIXPLAKSPVUZIHFTTXHEX, otherAttributes=[OtherAttribute [name=height, value=445], OtherAttribute [name=height-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=42.36], OtherAttribute [name=vendor, value=IZLYNRYPN], OtherAttribute [name=note, value=BCNFKJZLFADMJLPPQRSNNQOWDDNFUJHFNBAMSEMXGGZYKYWPSMCMUKKAPQQFMCLYEXFYZVJRWOWPXIBTKLKBIDZICVDIRMDISXIOSRZPHPYBSHPPDZRBDUXQKFYUFSCRWCBAZBPCSBNNNYINZEPEZNNIQHUCFMDPRJAGHZATMVUDTJRZTRYZWMPHOEIRFYYLWNZDYFJEORSRTFVGIFAIRHAGEAOPHDBKDCGFOPASYCUCWUHQRRNLAYVTWJIAAHCLDABGNJGEURK]]]
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/73cdbabc-d1ef-460e-9169-f7231cb71eb7Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114474is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=94156c25-6312-4315-81e6-e9028fd0a95c, owner=Mary Matthews, description=SOWBUAWFWMHCNCWP, otherAttributes=[OtherAttribute [name=length, value=719], OtherAttribute [name=quantity, value=815], OtherAttribute [name=note, value=YYHZSRAGUQJDYPNIIRIEWFVDGHTZVRDKTAEKYRHPSKLKXPBIWEBQCYEQPRQIVOUBSONTOXWFPTCSRNNONFYKWIDBQGXWWHUUDNEPFXESFIXRCXRFWQTASTCFNDODMWLULIBCTFXYCCEVBZCVKYNUWPQJZRBPQJHYEDNBOPGIVNCREGORSUCWKGBCXBDHTZQMMHFVTBJWZWCJBWQISUBGVTEFZTGBFOCVEN]]]
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/94156c25-6312-4315-81e6-e9028fd0a95cObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114525is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114554is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:44:11 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=226d8a17-c5a4-4679-ba50-b5e994f66906, owner=Mary Matthews, description=BQBIRIYJUTPBCAORCBCIYLVTGOQPOVPTVPCTOWCGSIQRFIATOUFRVQCILPZRC, otherAttributes=[OtherAttribute [name=color, value=red], OtherAttribute [name=size, value=213], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=97.46], OtherAttribute [name=quantity, value=327]]]
+2023-10-20 14:44:11 [main] INFO  c.aws.consumer.ConsumerApplication - {Limit: 10}
+2023-10-20 14:44:11 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/226d8a17-c5a4-4679-ba50-b5e994f66906Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:44:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114855is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:46:33 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73778 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:46:33 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:46:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:46:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:46:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:46:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:46:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 494 ms
+2023-10-20 14:46:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:46:34 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.916 seconds (process running for 1.205)
+2023-10-20 14:46:34 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:46:35 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47e9a9b6-1cc2-41eb-a502-36e9913b9b53, owner=Sue Smith, description=, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width, value=583], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=795], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=3.03], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:46:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:46:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=03ce36d9-d31b-4603-9cd8-a106193c7164, owner=Mary Matthews, description=WRMCPSJWMVTEQEFPZMGQBGL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=5.79], OtherAttribute [name=quantity, value=612]]]
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=10d87145-f82a-4811-a8a8-77a66314e9ba, owner=Henry Hops, description=XFGTXBDUNULTIJMRXSOSUKOLQESNZBFHSEHEDYKRASTQORCIRNXGQKUKXYRFINYDRCKETEEBYMZEINNYFRWBEEPLXJOVEDDZJ, otherAttributes=[OtherAttribute [name=color, value=blue], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=797], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=296], OtherAttribute [name=quantity, value=799], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:46:36 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47116ab3-0c87-4e25-aa90-39ccfdd2c755, owner=Henry Hops, description=TOCNHYZOJKWUKJFVYRJNIBDRBMCEGMOCTG, otherAttributes=[OtherAttribute [name=vendor, value=QYTDCFTSTGKRBH], OtherAttribute [name=note, value=NSOCGIVFTQZWJRMOEMZFQMAVIWOHULSKNBEZOELWEFTLKQQPXTTTVEOUXOUFHCULFFXJTFVWACFHMMPIXUGSOIQNHREZOUTUHCLGOPXBECEQMBEGIBKWRADVKVKTDXQBDDAQJNXDZBVSVBOYVPRLBGUHSJSWZXZDTFIVOUQHPEDOWALCHTNMVGYMXQQLGMYYZDJIHUGS]]]
+2023-10-20 14:47:28 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73796 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:47:28 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:47:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:47:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:47:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:47:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:47:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2023-10-20 14:47:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:47:29 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.902 seconds (process running for 1.182)
+2023-10-20 14:47:29 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:47:29 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47e9a9b6-1cc2-41eb-a502-36e9913b9b53, owner=Sue Smith, description=, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width, value=583], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=795], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=3.03], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=03ce36d9-d31b-4603-9cd8-a106193c7164, owner=Mary Matthews, description=WRMCPSJWMVTEQEFPZMGQBGL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=5.79], OtherAttribute [name=quantity, value=612]]]
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:30 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=10d87145-f82a-4811-a8a8-77a66314e9ba, owner=Henry Hops, description=XFGTXBDUNULTIJMRXSOSUKOLQESNZBFHSEHEDYKRASTQORCIRNXGQKUKXYRFINYDRCKETEEBYMZEINNYFRWBEEPLXJOVEDDZJ, otherAttributes=[OtherAttribute [name=color, value=blue], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=797], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=296], OtherAttribute [name=quantity, value=799], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47116ab3-0c87-4e25-aa90-39ccfdd2c755, owner=Henry Hops, description=TOCNHYZOJKWUKJFVYRJNIBDRBMCEGMOCTG, otherAttributes=[OtherAttribute [name=vendor, value=QYTDCFTSTGKRBH], OtherAttribute [name=note, value=NSOCGIVFTQZWJRMOEMZFQMAVIWOHULSKNBEZOELWEFTLKQQPXTTTVEOUXOUFHCULFFXJTFVWACFHMMPIXUGSOIQNHREZOUTUHCLGOPXBECEQMBEGIBKWRADVKVKTDXQBDDAQJNXDZBVSVBOYVPRLBGUHSJSWZXZDTFIVOUQHPEDOWALCHTNMVGYMXQQLGMYYZDJIHUGS]]]
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=95ff6aa2-0932-4c96-98a7-aaf19cbd599a, owner=Henry Hops, description=VATMVAAKVTKUNUWFSZXQRJYZYBHZUZNJVBISNHDJHYXYGRKVWJJOIZVAPXCR, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size, value=369], OtherAttribute [name=height, value=588], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=676]]]
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:31 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=113132d7-ede9-4e10-aa15-428837594ccb, owner=Sue Smith, description=LUCHAGJSICLCMLB, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=length, value=322], OtherAttribute [name=rating, value=3.4895701], OtherAttribute [name=quantity, value=502]]]
+2023-10-20 14:47:55 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 73814 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:47:55 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:47:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:47:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:47:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:47:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:47:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 481 ms
+2023-10-20 14:47:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:47:55 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.883 seconds (process running for 1.159)
+2023-10-20 14:47:55 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:47:56 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47e9a9b6-1cc2-41eb-a502-36e9913b9b53, owner=Sue Smith, description=, otherAttributes=[OtherAttribute [name=color, value=yellow], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width, value=583], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=795], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=3.03], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=03ce36d9-d31b-4603-9cd8-a106193c7164, owner=Mary Matthews, description=WRMCPSJWMVTEQEFPZMGQBGL, otherAttributes=[OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length-unit, value=cm], OtherAttribute [name=price, value=5.79], OtherAttribute [name=quantity, value=612]]]
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=10d87145-f82a-4811-a8a8-77a66314e9ba, owner=Henry Hops, description=XFGTXBDUNULTIJMRXSOSUKOLQESNZBFHSEHEDYKRASTQORCIRNXGQKUKXYRFINYDRCKETEEBYMZEINNYFRWBEEPLXJOVEDDZJ, otherAttributes=[OtherAttribute [name=color, value=blue], OtherAttribute [name=size-unit, value=cm], OtherAttribute [name=height, value=797], OtherAttribute [name=width-unit, value=cm], OtherAttribute [name=length, value=296], OtherAttribute [name=quantity, value=799], OtherAttribute [name=vendor, value=J]]]
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:47:57 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:47:58 [main] INFO  c.aws.consumer.ConsumerApplication - Widget [id=47116ab3-0c87-4e25-aa90-39ccfdd2c755, owner=Henry Hops, description=TOCNHYZOJKWUKJFVYRJNIBDRBMCEGMOCTG, otherAttributes=[OtherAttribute [name=vendor, value=QYTDCFTSTGKRBH], OtherAttribute [name=note, value=NSOCGIVFTQZWJRMOEMZFQMAVIWOHULSKNBEZOELWEFTLKQQPXTTTVEOUXOUFHCULFFXJTFVWACFHMMPIXUGSOIQNHREZOUTUHCLGOPXBECEQMBEGIBKWRADVKVKTDXQBDDAQJNXDZBVSVBOYVPRLBGUHSJSWZXZDTFIVOUQHPEDOWALCHTNMVGYMXQQLGMYYZDJIHUGS]]]
+2023-10-20 14:58:44 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 74020 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 14:58:44 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 14:58:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 14:58:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 14:58:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 14:58:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 14:58:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 497 ms
+2023-10-20 14:58:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 14:58:45 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 0.919 seconds (process running for 1.253)
+2023-10-20 14:58:45 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 14:58:46 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:46 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:47 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:47 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:47 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:47 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:48 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:48 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:48 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:48 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:49 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:49 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:49 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:49 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 14:58:50 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 14:58:50 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:19:44 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 74582 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:19:44 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:19:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:19:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:19:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:19:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:19:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+2023-10-20 15:19:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:19:45 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.194 seconds (process running for 1.542)
+2023-10-20 15:19:45 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:24:03 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 74676 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:24:03 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:24:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:24:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:24:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:24:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:24:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
+2023-10-20 15:24:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:24:04 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.186 seconds (process running for 1.527)
+2023-10-20 15:24:04 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:29:02 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 74774 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:29:02 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:29:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:29:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:29:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:29:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:29:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 501 ms
+2023-10-20 15:29:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:29:03 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.187 seconds (process running for 1.528)
+2023-10-20 15:29:03 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:09 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:10 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:11 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:12 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:13 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:14 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:15 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:16 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:17 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:18 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:19 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:20 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:21 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:29:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:29:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:23 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 74877 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:30:23 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:30:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:30:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:30:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:30:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:30:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+2023-10-20 15:30:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:30:24 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.254 seconds (process running for 1.601)
+2023-10-20 15:30:24 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/db63798c-b7e3-47c4-9413-d2d1679c4f54Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112668is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1b95e789-c83b-41f7-aa0c-ec7f1097fa6dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113108is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d25ac637-3d6e-4d3c-88d4-ac5f43c34c04Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113140is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/2221f650-f8aa-4988-af43-b68518259a3bObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113228is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/24f4b0d5-7194-43c0-9827-b781b9637d7aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113276is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bd363803-6642-4665-836d-14925a2faf68Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113519is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7cd2f37b-732d-45df-900f-9d8d56e3f90dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113908is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/776097cf-60f7-43ea-99c2-4ac6f4b0e9caObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114078is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/73cdbabc-d1ef-460e-9169-f7231cb71eb7Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114474is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/94156c25-6312-4315-81e6-e9028fd0a95cObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114525is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/226d8a17-c5a4-4679-ba50-b5e994f66906Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114855is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1a88d82d-b492-4a44-a74b-e6ec52348400Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115351is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f2f7f71f-a708-4043-91d9-8c6505dac4a1Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115542is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/aa84969e-798d-4c2d-94af-34130ee6e008Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115583is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115662is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115893is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/6c42eb2f-801f-406b-ade7-4ddaa286d02eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116030is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f91571f8-82e7-4ea7-b9bd-bc03f051c027Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116127is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/26bfa837-3717-4a23-ac92-c877f894a827Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116322is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116351is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116509is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f9431f58-13c1-4363-adf7-523e413394d6Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116642is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/db63798c-b7e3-47c4-9413-d2d1679c4f54Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112668is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1b95e789-c83b-41f7-aa0c-ec7f1097fa6dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113108is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d25ac637-3d6e-4d3c-88d4-ac5f43c34c04Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113140is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/2221f650-f8aa-4988-af43-b68518259a3bObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113228is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/24f4b0d5-7194-43c0-9827-b781b9637d7aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113276is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bd363803-6642-4665-836d-14925a2faf68Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113519is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7cd2f37b-732d-45df-900f-9d8d56e3f90dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113908is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/776097cf-60f7-43ea-99c2-4ac6f4b0e9caObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114078is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/73cdbabc-d1ef-460e-9169-f7231cb71eb7Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114474is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/94156c25-6312-4315-81e6-e9028fd0a95cObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114525is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/226d8a17-c5a4-4679-ba50-b5e994f66906Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:30:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114855is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:21 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 75107 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:42:21 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:42:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:42:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:42:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:42:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:42:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 501 ms
+2023-10-20 15:42:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:42:22 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.184 seconds (process running for 1.556)
+2023-10-20 15:42:22 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:42:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:42:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:27 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 75124 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:43:27 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:43:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:43:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:43:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:43:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:43:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 462 ms
+2023-10-20 15:43:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:43:28 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.109 seconds (process running for 1.389)
+2023-10-20 15:43:28 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:43:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47e9a9b6-1cc2-41eb-a502-36e9913b9b53Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109631is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/03ce36d9-d31b-4603-9cd8-a106193c7164Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823109833is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/10d87145-f82a-4811-a8a8-77a66314e9baObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110168is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/47116ab3-0c87-4e25-aa90-39ccfdd2c755Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823110216is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/95ff6aa2-0932-4c96-98a7-aaf19cbd599aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111040is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/113132d7-ede9-4e10-aa15-428837594ccbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111739is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/28c5ac15-a03e-4510-ad99-6ac8dcc7cc7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823111794is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/910b0626-eba2-4813-b326-5888ff7d4495Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112176is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7d8889b0-8ff3-481d-a593-74298ed1133eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112235is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/51a3c931-8b83-4857-9b80-1fe1d6d0da2dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112262is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c32c6514-4739-41b4-9cfe-c3efdcae644dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/39bf54fa-525a-43ed-bf70-f5219e808307Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112318is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/db63798c-b7e3-47c4-9413-d2d1679c4f54Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823112668is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1b95e789-c83b-41f7-aa0c-ec7f1097fa6dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113108is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d25ac637-3d6e-4d3c-88d4-ac5f43c34c04Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113140is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/2221f650-f8aa-4988-af43-b68518259a3bObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113228is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/24f4b0d5-7194-43c0-9827-b781b9637d7aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113276is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bd363803-6642-4665-836d-14925a2faf68Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113519is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7cd2f37b-732d-45df-900f-9d8d56e3f90dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823113908is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/776097cf-60f7-43ea-99c2-4ac6f4b0e9caObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114078is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/73cdbabc-d1ef-460e-9169-f7231cb71eb7Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114474is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/94156c25-6312-4315-81e6-e9028fd0a95cObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114525is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/226d8a17-c5a4-4679-ba50-b5e994f66906Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823114855is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1a88d82d-b492-4a44-a74b-e6ec52348400Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115351is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f2f7f71f-a708-4043-91d9-8c6505dac4a1Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115542is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/aa84969e-798d-4c2d-94af-34130ee6e008Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823115583is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/6c42eb2f-801f-406b-ade7-4ddaa286d02eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116030is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f91571f8-82e7-4ea7-b9bd-bc03f051c027Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:37 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116127is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:38 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/26bfa837-3717-4a23-ac92-c877f894a827Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116322is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:38 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/f9431f58-13c1-4363-adf7-523e413394d6Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:43:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697823116642is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:43:38 [main] INFO  c.aws.consumer.ConsumerApplication - programEnded
+2023-10-20 15:48:48 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 75226 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:48:48 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:48:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:48:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:48:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:48:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:48:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 521 ms
+2023-10-20 15:48:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:48:49 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.216 seconds (process running for 1.548)
+2023-10-20 15:48:49 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/c6a4077a-6e70-4490-8d50-e5befd30375fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838401411is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/fcdf008b-03d7-4e5b-9606-17d42e7ee99aObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403242is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/b94f4d50-6cd0-4279-bc4f-56c93efb6148Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403289is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:51 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/00ae0ba0-12da-4f6e-b465-170bf15db377Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403346is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/72f52073-f611-45bb-89fa-64456cb84f8eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403391is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/7fb72652-160b-48c9-84f4-13ba8c99dc42Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403469is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/40df3591-5d5b-49b6-af27-d7ee99ec38f0Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:48:52 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403515is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:48:53 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403560is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:20 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 75271 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 15:51:20 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:51:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:51:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 15:51:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 15:51:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 15:51:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 474 ms
+2023-10-20 15:51:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:51:21 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.098 seconds (process running for 1.382)
+2023-10-20 15:51:21 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 15:51:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403705is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:22 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838403857is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:23 [main] WARN  com.amazonaws.util.Base64 - JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+2023-10-20 15:51:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/84c1963f-97d1-4d6e-9b73-94f97149b043Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404038is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:23 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/b931c61c-84b7-4242-9e0d-df94b803c401Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:23 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404159is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404213is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:24 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/064f2488-00cc-4346-bc33-6739263d64dcObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:24 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404390is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404427is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404683is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:25 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bac112fa-4565-466e-95f9-292898178d29Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:25 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404849is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838404885is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405055is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:26 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/daac2e46-da47-4053-8911-678a4c735584Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:26 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405291is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:27 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/18165f5a-d4cf-4a06-b39c-659f56648a92Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405428is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:27 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405600is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8dedaa63-2c16-4d17-95d4-abca28c26979Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405743is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d46ec521-d156-43d1-8734-9fc536ee4847Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:28 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405781is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:28 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/89920ee9-9ff8-4353-bb50-622695ff4de1Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405813is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:29 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/73425046-e9c8-4ca2-95ed-aee4a5615ddbObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405847is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:29 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838405879is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/bd3aa2cb-9512-4633-8c0b-83b463135f8bObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406070is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:30 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/aaa623e6-19d5-41fe-8206-3f04b6c73387Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406123is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:30 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406163is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/019aeb49-c1f2-43cb-8a46-b2ae52dd3f71Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406302is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:31 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/1cbf2525-3d5d-4f80-a307-9e80f25cbe7eObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:31 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406357is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/e91211ee-b3fa-4084-8e97-76bc8d0325f1Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406423is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:32 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/11898e90-4bcf-444f-8bdb-7e711cfe3d4fObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406522is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:32 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406564is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/909fcc54-bcec-4e97-ae05-14aa9cefd0a8Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406710is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:33 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/4f0a7e92-e574-4c95-b1c3-f63a5fa61300Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:33 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406744is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/d96f876a-d03d-4940-90d5-2deed77ba3efObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406775is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/defada0d-8d6d-45a8-8193-6f71065b8659Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:34 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406916is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:34 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/22a205dd-3f8e-4ae6-896f-5f4017c1e4b9Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406949is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838406978is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:35 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/370aa412-1710-43fd-aca6-aa8a0a62075dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:35 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407110is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/37dc8bbb-dfa6-44a2-8f1d-91a387c3f4b9Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407196is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:36 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/913c5432-18e0-4437-b434-fad4ee30289dObject uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407226is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:36 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407254is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:37 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407533is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:37 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/5f8385c1-c1b0-4700-ad7e-253e88197bf3Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:37 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838407872is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408056is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8d33dc3e-b365-4c73-8fc0-073947993bd0Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 15:51:38 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408225is deleted from bucketusu-cs5260-ironman-requests

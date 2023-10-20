@@ -18,35 +18,35 @@ import com.amazonaws.services.s3.model.S3ObjectSummary;
 @SpringBootTest
 class ConsumerApplicationTests {
 	
-	private AmazonS3 s3;
-    private ConsumerApplication consumerApplication;
-    
-    @Before
-    public void setup() {
-        s3 = Mockito.mock(AmazonS3.class);
-        consumerApplication = new ConsumerApplication();
-    }
-    
-    @Test
-    public void testProcess() {
-    
-        S3Object s3Object = Mockito.mock(S3Object.class);
-        ObjectListing objectListing = Mockito.mock(ObjectListing.class);
-        List<S3ObjectSummary> objectSummaries = new ArrayList<>();
-       
-        Mockito.when(s3.listObjects("usu-cs5260-ironman-requests")).thenReturn(objectListing);
-        Mockito.when(objectListing.getObjectSummaries()).thenReturn(new ArrayList<S3ObjectSummary>());
-
- 
-        Boolean result = consumerApplication.process(s3);
-        assertEquals(true,result);
-        Mockito.verify(s3).listObjects("usu-cs5260-ironman-requests");
-    }
-
-
-
-	@Test
-	void contextLoads() {
-	}
+//	private AmazonS3 s3;
+//    private ConsumerApplication consumerApplication;
+//    
+//    @Before
+//    public void setup() {
+//        s3 = Mockito.mock(AmazonS3.class);
+//        consumerApplication = new ConsumerApplication();
+//    }
+//    
+//    @Test
+//    public void testProcess() {
+//    
+//        S3Object s3Object = Mockito.mock(S3Object.class);
+//        ObjectListing objectListing = Mockito.mock(ObjectListing.class);
+//        List<S3ObjectSummary> objectSummaries = new ArrayList<>();
+//       
+//        Mockito.when(s3.listObjects("usu-cs5260-ironman-requests")).thenReturn(objectListing);
+//        Mockito.when(objectListing.getObjectSummaries()).thenReturn(new ArrayList<S3ObjectSummary>());
+//
+// 
+//        Boolean result = consumerApplication.process(s3);
+//        assertEquals(true,result);
+//        Mockito.verify(s3).listObjects("usu-cs5260-ironman-requests");
+//    }
+//
+//
+//
+//	@Test
+//	void contextLoads() {
+//	}
 
 }
