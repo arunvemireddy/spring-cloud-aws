@@ -18,6 +18,9 @@ import com.amazonaws.services.s3.model.S3ObjectSummary;
 import com.aws.consumer.Component.DynamoDBComponent;
 import com.aws.consumer.Component.S3Component;
 import com.aws.consumer.DTO.AwsDTO;
+//import com.aws.consumer.Component.DynamoDBComponent;
+//import com.aws.consumer.Component.S3Component;
+//import com.aws.consumer.DTO.AwsDTO;
 
 @SpringBootTest
 class ConsumerApplicationTests {
@@ -36,7 +39,7 @@ class ConsumerApplicationTests {
         consumerApplication.dbComponent = new DynamoDBComponent();
 
       
-        Boolean bool = consumerApplication.process(mockAmazonS3);
+        Boolean bool = consumerApplication.process(mockAmazonS3,awsDTO.getBucketName2(),awsDTO.getBucketName3());
         assertEquals(true, bool);
     }
 }

@@ -888,3 +888,153 @@
 2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/38695768-ec15-48f3-ad34-9b9e74653fd4Object uploaded to bucketusu-cs5260-ironman-web
 2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408876is deleted from bucketusu-cs5260-ironman-requests
 2023-10-20 16:09:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838408934is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 18:30:04 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 79082 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 18:30:04 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 18:30:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:30:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:30:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 18:30:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:30:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 621 ms
+2023-10-20 18:30:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:30:05 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.296 seconds (process running for 1.632)
+2023-10-20 18:30:05 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 18:31:17 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 79113 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 18:31:17 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 18:31:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:31:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:31:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 18:31:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:31:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 526 ms
+2023-10-20 18:31:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:31:18 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.227 seconds (process running for 1.584)
+2023-10-20 18:31:18 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 18:37:37 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 79216 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 18:37:37 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 18:37:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:37:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:37:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 18:37:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:37:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 620 ms
+2023-10-20 18:37:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:37:38 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.311 seconds (process running for 1.66)
+2023-10-20 18:37:38 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 18:38:10 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 79227 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 18:38:10 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 18:38:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:38:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:38:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 18:38:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:38:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 476 ms
+2023-10-20 18:38:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:38:11 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.112 seconds (process running for 1.398)
+2023-10-20 18:38:11 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 18:38:23 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 79232 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 18:38:23 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 18:38:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:38:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:38:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 18:38:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:38:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+2023-10-20 18:38:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:38:24 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.136 seconds (process running for 1.552)
+2023-10-20 18:38:24 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 20:59:53 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82078 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 20:59:53 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 20:59:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 20:59:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 20:59:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 20:59:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 20:59:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 645 ms
+2023-10-20 20:59:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 20:59:54 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.335 seconds (process running for 1.772)
+2023-10-20 20:59:54 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 21:09:14 [main] INFO  c.a.c.ConsumerApplicationTests - Starting ConsumerApplicationTests using Java 19.0.1 with PID 82274 (started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:09:14 [main] INFO  c.a.c.ConsumerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:09:15 [main] INFO  c.a.c.ConsumerApplicationTests - Started ConsumerApplicationTests in 1.746 seconds (process running for 2.217)
+2023-10-20 21:10:50 [main] INFO  c.a.c.ConsumerApplicationTests - Starting ConsumerApplicationTests using Java 19.0.1 with PID 82320 (started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:10:50 [main] INFO  c.a.c.ConsumerApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:10:52 [main] INFO  c.a.c.ConsumerApplicationTests - Started ConsumerApplicationTests in 1.612 seconds (process running for 2.113)
+2023-10-20 21:11:48 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82339 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:11:48 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:11:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:11:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:11:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:11:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:11:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
+2023-10-20 21:11:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:11:49 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.164 seconds (process running for 1.48)
+2023-10-20 21:12:19 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82347 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:12:19 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:12:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:12:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:12:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:12:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:12:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2023-10-20 21:12:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:12:20 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.209 seconds (process running for 1.502)
+2023-10-20 21:22:27 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82613 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:22:27 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:22:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:22:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:22:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:22:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:22:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 491 ms
+2023-10-20 21:22:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:22:28 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.177 seconds (process running for 1.636)
+2023-10-20 21:37:00 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82946 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:37:00 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:37:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:37:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:37:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:37:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:37:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+2023-10-20 21:37:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:37:02 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.261 seconds (process running for 1.585)
+2023-10-20 21:37:02 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 21:37:02 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 2null
+2023-10-20 21:37:02 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 3null
+2023-10-20 21:37:45 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82958 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:37:45 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:37:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:37:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:37:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:37:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:37:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 495 ms
+2023-10-20 21:37:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:37:46 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.212 seconds (process running for 1.49)
+2023-10-20 21:37:46 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 21:37:46 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 2null
+2023-10-20 21:37:46 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 3null
+2023-10-20 21:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 82982 (/Users/arun/Documents/consumer/target/classes started by arun in /Users/arun/Documents/consumer)
+2023-10-20 21:38:59 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-20 21:38:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 21:38:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 21:38:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 21:38:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 21:38:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 472 ms
+2023-10-20 21:39:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 21:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.094 seconds (process running for 1.365)
+2023-10-20 21:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-10-20 21:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 2null
+2023-10-20 21:39:00 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 3null
+2023-10-20 21:39:02 [main] WARN  com.amazonaws.util.Base64 - JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+2023-10-20 21:39:02 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/3964dcf1-028e-433d-a3f6-2ef0eb0ef430Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409133is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409302is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:03 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/a8185568-831b-422e-a25f-525e75ba6604Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:03 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409436is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:04 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409470is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:04 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/a6b9f074-773f-4257-8a5a-d500fe3cdec5Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:04 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409686is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:05 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/3b082da0-b6c7-48ab-af77-09cf0986d716Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409721is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:05 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409755is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/60b90889-0256-4675-88d4-24bd1b87e4e8Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409933is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:06 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/918dd66c-eacd-48ac-9e5c-2af3528f4106Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:06 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838409982is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:07 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/cd02f661-b537-4ade-9e74-c2bebc249ce9Object uploaded to bucketusu-cs5260-ironman-web
+2023-10-20 21:39:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838410016is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838410106is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838410249is deleted from bucketusu-cs5260-ironman-requests
+2023-10-20 21:39:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8140a1bf-25c6-4993-a74a-4b1beab494f3Object uploaded to bucketusu-cs5260-ironman-web

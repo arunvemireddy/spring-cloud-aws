@@ -15,6 +15,7 @@ import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
 import com.aws.consumer.Component.DynamoDBComponent;
 import com.aws.consumer.Component.S3Component;
+import com.aws.consumer.Component.SQSComponent;
 import com.aws.consumer.DTO.AwsDTO;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -27,17 +28,23 @@ public class ConsumerApplication {
 	public static AwsDTO awsDTO;
 	public static S3Component s3Component;
 	public static DynamoDBComponent dbComponent;
+	public static SQSComponent sqsComponent;
 
 	public ConsumerApplication() {
 		awsDTO = new AwsDTO();
 		s3Component = new S3Component();
 		dbComponent = new DynamoDBComponent();
+		sqsComponent = new SQSComponent();
 	}
 
 	public final static Logger log = LogManager.getLogger(ConsumerApplication.class);
 
-	public Boolean process(AmazonS3 s3) {
+	public Boolean process(AmazonS3 s3, String bucket2, String bucket3) {
 		boolean stopCondition = false;
+		if(bucket2 !=null && bucket3!=null) {
+			awsDTO.setBucketName2(bucket2);
+			awsDTO.setBucketName3(bucket3);
+		}
 		ObjectListing objectListing = s3.listObjects(awsDTO.getBucketName2());
 
 		while (!stopCondition) {
@@ -84,11 +91,30 @@ public class ConsumerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
 		log.info("consumer application for AWS s3 bucket");
+		
+	    String bucketName2 = null;
+        String bucketName3 = null;
+
+        for (String arg : args) {
+            if (arg.startsWith("--request-bucket=")) {
+                bucketName2 = arg.substring("--request-bucket=".length());
+            } else if (arg.startsWith("--widget-bucket=")) {
+                bucketName3 = arg.substring("--widget-bucket=".length());
+            }
+        }
+
+        if (bucketName2 == null || bucketName3 == null) {
+           System.out.println("Missing arguments, buckets are missing");
+        }
+        
+        log.info("bucket name 2"+bucketName2);
+        log.info("bucket name 3"+bucketName3);
+
 		ConsumerApplication consumerApplication = new ConsumerApplication();
 		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
 		dbComponent.describeTable("widgets");
-		consumerApplication.process(s3);
-		System.exit(0);
+		consumerApplication.process(s3,bucketName2,bucketName3);
+        System.exit(0);
 	}
 
 }
