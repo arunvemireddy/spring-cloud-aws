@@ -128,6 +128,7 @@ public class ConsumerApplication {
         }
 
 //		consumerApplication.process(s3,bucketName2,bucketName3);
+        
       System.exit(0);
 	}
 
