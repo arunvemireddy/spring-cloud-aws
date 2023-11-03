@@ -1038,3 +1038,376 @@
 2023-10-20 21:39:07 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838410106is deleted from bucketusu-cs5260-ironman-requests
 2023-10-20 21:39:08 [main] INFO  c.aws.consumer.ConsumerApplication - 1697838410249is deleted from bucketusu-cs5260-ironman-requests
 2023-10-20 21:39:08 [main] INFO  c.aws.consumer.ConsumerApplication - widgets/8140a1bf-25c6-4993-a74a-4b1beab494f3Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:43 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 17.0.9 with PID 21450 (/Users/arun/Documents/cc2/HW3/SQS/target/classes started by arun in /Users/arun/Documents/cc2/HW3/SQS)
+2023-11-02 20:56:43 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-02 20:56:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-02 20:56:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-02 20:56:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-02 20:56:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-02 20:56:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
+2023-11-02 20:56:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.998 seconds (process running for 2.534)
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS s3 bucket
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - Missing arguments, buckets are missing, sqs queue is missing
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 2null
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - bucket name 3null
+2023-11-02 20:56:45 [main] INFO  c.aws.consumer.ConsumerApplication - sqs queueUrlhttps://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:46 [main] WARN  com.amazonaws.util.Base64 - JAXB is unavailable. Will fallback to SDK implementation which may be less performant.If you are using Java 9+, you will need to include javax.xml.bind:jaxb-api as a dependency.
+2023-11-02 20:56:46 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: P387I8BA80S5V7KFPDMUTDEGUNVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/f1e125f6-bee3-47e7-9e58-cc23869937e7Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:46 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:47 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 08GA5QCN5KEO87L3EALGIHLABRVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/bf786700-5533-4afa-879a-0d7a55b80790Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:47 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: VQ2H8Q6RP31IAE84HPDNKOK12JVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/fccb2e69-65d4-4b66-a348-1cf4ea35a4aaObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:47 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:48 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: KVHNRBE3CT8117O5D8AI6SRB0JVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:48 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/3ece7852-0e4d-43f6-a033-2be229c30d63Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:48 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:48 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:48 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:48 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: CHINJSKKOK2M586I1DVRQDJNL3VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:48 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/b165470e-0445-4eeb-b96d-3abf9bf79d98Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:49 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 1TFNTI79OQ3OQ3VMBSHHQHB3UBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/99b249a8-27da-4ba1-a94c-8f49de171061Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:49 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: PQ32CCAQ5DDOBA8CH1O5TJVDL3VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:49 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/503b6412-2315-41f9-8c74-f1da538d3fb6Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:50 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 0N0GC3M43SR1T5QT2Q7KJGBSVVVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/ab8984c4-358f-464f-97cf-cc20c66a3ab9Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:50 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 00892U6DP792TRE16T8RNTPLSBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:50 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/1135cfcb-5fb0-40f9-bc3a-b5243d77c09eObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:51 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: M660EO3J40K2HP6N1MAJQ40LGFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/7ba5ab5b-9e15-4e84-88f4-b9615d9e6ca3Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:51 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: N32P638H87LUEPVB93EA4RC7HBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/18e03289-ee3b-470e-9446-33afcbe27a58Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:51 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:52 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 1CRQG7D26U2NR7TAF3PHOBMQJ7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/4dd3b5c7-ac20-4d62-86df-e290d2c0d045Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:52 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 9A4R0LKC79KE0V6CJPUAPUNSGJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:52 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/95ab9c39-c6c4-4223-8775-21e9b2cad4e2Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:53 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: G7KPT9DN0J0C4AT5BENAEDDMF7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/21fac5fc-c392-4330-b357-b7dadea1cfdfObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:53 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: OFP1GBDFEJVKP5FA5N9RF8T9IRVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/3693dba1-4354-4b2b-9be3-be0114d85e6dObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:53 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:54 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: SDFDO44BT1I9LLNNLE5L4N15KRVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/c12d90da-1069-4818-b622-c34b824f41a8Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - request type"delete"
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = deleted
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:54 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:55 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 8S8FU2IUPU7SQD3Q41E1934R6NVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/5484f2fc-eb79-4bb2-b9be-071ac4a19742Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:55 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: LIIRPAM2IG72SHDNRV7HHG29QRVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/8e73cfef-a9dc-4765-b587-575edc62a788Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:55 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:56 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: TUQPE7SL7TFB47GITL34RNG2VFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/bb5c334f-3ced-422c-be3d-e2cb25a22d05Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:56 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: P3HB4TAQA3PGL8E5PNOGG61BDJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/dc2e2a06-4b8d-44e2-8c25-99ab1f5889deObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:56 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:57 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: S3SCG7HJ72OA3BVK42G9H2E3Q3VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/eb4735d6-ed6d-4082-a9a5-1195e1fa6a9cObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:57 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: JOUEN2UUMH0Q42518JB9UBULUJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/d2368af3-8aa1-47d7-a494-b6ea36ae04efObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:57 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:58 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 0V5J8SLGUIN94TQL5LS11BHUQFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/a3a39551-e1a9-405b-8749-a9908ae82c62Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:58 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: JFQP302SMGV84E57KG64G0JKIFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/d564f48a-9939-4dc7-9870-be8c6dcd6029Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:58 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:59 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: L7RTONKQ9234HF9L3LH6B4BASBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/26a72fb7-8701-4bdf-b2d3-22377688ed7fObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:56:59 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: NGQTA4QQDTL8G38A24QEB8L5OBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:56:59 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/df407011-23e7-474f-87da-740e4a413e98Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:00 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: C8L5SMDVI9BBD9UIGQ414H4SFJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/9c976ff0-19db-41aa-8ef4-13d8fd8e3e7cObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:00 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:01 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: J20OIECI7G7UTKQQ8M8HSELJ3RVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/d3b32c87-bbb8-4d2a-b01b-4f0ca920d991Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:01 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: P383HR1R2T9AUF3SO2JAR0KPFVVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:01 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/a7cff0c1-660c-447a-9a27-3a7943bcf54fObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:02 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: KAVIARJOQ5T1V5FEURCF21401VVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/06f8ecd7-9ebf-46ea-983a-9d17a1a135c8Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:02 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: T95M8HFL2SJSE7NIBD3OF6N05BVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:02 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/31d4f517-13a1-415c-9074-c81eef898468Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:03 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 90B1A7ENIR5HP0QHM5ES0PLUP7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/922700e4-4d7d-4068-afc1-27e5de5ed7e3Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:03 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:04 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: HINEGTJ3F6AAT65JV6UCAOCNURVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/e9d43694-749e-456e-90c8-e99e8f02071eObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:04 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: FDMEUJ4N1N2T8J7V37HNAHHI53VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/3bd725eb-55ad-444a-a948-8c5d20794225Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:04 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:05 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: UOU5T79H09ON7SM5MBF602DPC7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/5a2ed0b4-0528-4061-b9fd-0a17b46e741aObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:05 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 5HQ5BKCHB433B9KOK9O4KNJVT3VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/478abbd3-6aff-4638-a9cc-bf24843f3805Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:05 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:06 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: UK55AE9EQSEDTROBEBJCP8JI9VVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/94907ab0-bd80-4680-9641-5efc6697f1dfObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:06 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: GF9G5HUUCHFHGN9IA792IQI0ORVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/2b050020-c331-433f-a7f1-1f8e8d371a76Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:06 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:07 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: LCDGRJK06LGGDVAGS0I52SQ74NVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/aedcc8e3-361c-4c2d-a9ff-9ca20a631b1aObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:07 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: SE6AM5KHG4NA0T5HU0H6JR9Q1JVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/e121cb6a-3038-4f13-b7f6-43b5047b531fObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:07 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:08 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 3L4VCJ43T4ECORMJB52KJ2IVBNVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/06f54a17-acdf-46de-bb96-6e69f15e74a2Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:08 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: SV1QM6Q1CRJVPL1SCIRCP16BD7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/2955a6b0-971f-4dec-a731-bb592651401cObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:08 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:09 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: OI78E4V086LGIIP395URFM6GGBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/42734b4a-e131-4492-a6c1-0b7e0a8bd7b7Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:09 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 70VAVOS3CH17LMM8U0CD4HOPHFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/70af9a7f-7911-45b3-af0e-0f2008ba5b8bObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:09 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:10 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: D6S68SELA84CCUO4OC1IKS31HBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/38f434f0-221b-46d7-ad88-0497beb98a42Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:10 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: BJFNHRH2E2HMVLCGO1MB5E9NLVVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/de428cd0-be16-446c-a0aa-51a079a3b862Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:10 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:11 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: MKGCVMI29D3CPBR79GCMJAP117VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/04a9ea77-8ece-4b23-8739-e1ee2aeb0570Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:11 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 6ER4OO72HC3GBKHTP2ITIKIHDJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/c4c1a52f-c6e5-4c3e-b4e1-e945dec4510fObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:11 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:12 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: D4ETU0DCUDF28U05M3REHC9D7JVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/7f421c41-4341-420e-91be-61fa392eff33Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:12 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 1609K1HLTI6Q0OBH0LL2MQQAIFVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/330e8089-1ed5-4b64-ac9c-f4ea40448ebbObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:12 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:13 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 72MKGRK9J8HF3VQKBGKSFIEFCJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/69a39a32-0db6-42c7-9aeb-c229098bd09bObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - request type"delete"
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = deleted
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:13 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:14 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 26QIC39N0N3H717UMNJFL23OERVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/61192804-a737-4446-9be6-659ebed9aa97Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:14 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: SMPLM5OKOE421EB0834QJP6Q5RVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/896c9481-3fa8-467c-bc7b-d170658a1167Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:14 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: F2S8P9R2VBCE345JS9SB123K87VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:14 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/47eaa64f-a88e-4c29-80b8-567ae4d8d06dObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:15 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 5CLOL8MDD5NJ5RFERRUS6P4G5NVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/bdf3fc5a-b693-4b0d-902b-6be8d74555a8Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:15 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:16 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: TB4RSN28K5200PTEIDIRIF758BVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/efce26bd-0400-4ec0-b1a0-7cb7fa5f6c7cObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:16 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: U8D04KN2L1S67SJ1ERJH0IIVRRVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/602cc2ca-bd71-4ae1-bdb3-b50ec832ec80Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:16 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:17 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: F6UIRDMQU31M54A0M6M2BQCE1BVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/4f820b30-0313-44f8-a533-bde528e1bff8Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:17 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: PSB656B6F13O8EE6L2U26UBNIVVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/1c0455cb-552e-4bff-b90e-d9a1bae20d53Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:17 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:18 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: M5OTQCNMDD1BJNPGB9SE5L4VMBVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/644b6046-49b2-4fd7-b921-b1a5e1a3627dObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:18 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 1GPM6AJQ14N4FU70S5UPMRMLINVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:18 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/08027456-e176-49bf-a7b6-6bd1d1ce197aObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:19 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: U48LPFMGCVE27QEHKL3K4NDAK3VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/de4e4e46-949a-4a76-832c-c4d7437a4499Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:19 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:20 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: H8AOP540UBNDADLQ2RJOU0CEK7VV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/66f1dec2-d7f6-4b35-b469-f200bee8ba2aObject uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - created
+2023-11-02 20:57:20 [main] ERROR c.a.c.Component.DynamoDBComponent - User: arn:aws:sts::725671772159:assumed-role/voclabs/user2734377=Arun_Vemireddy is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-2:725671772159:table/widgets because no identity-based policy allows the dynamodb:PutItem action (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: AccessDeniedException; Request ID: 2KJ1JAKKHATJ52BVKC1VVDMLDJVV4KQNSO5AEMVJF66Q9ASUAAJG; Proxy: null)
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/deef9098-3062-45df-8ebc-00436641a839Object uploaded to bucketusu-cs5260-ironman-web
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = created
+2023-11-02 20:57:20 [main] INFO  c.a.consumer.Component.SQSComponent - request type"delete"
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = deleted
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - request type"update"
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - message deleted from sqs, request type = updated
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-02 20:57:21 [main] INFO  c.a.consumer.Component.SQSComponent - created

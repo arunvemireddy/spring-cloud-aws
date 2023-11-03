@@ -90,31 +90,45 @@ public class ConsumerApplication {
 //	source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
+		ConsumerApplication consumerApplication = new ConsumerApplication();
+		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
 		log.info("consumer application for AWS s3 bucket");
 		
 	    String bucketName2 = null;
         String bucketName3 = null;
+        String queueUrl = "https://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests";
 
         for (String arg : args) {
             if (arg.startsWith("--request-bucket=")) {
                 bucketName2 = arg.substring("--request-bucket=".length());
-            } else if (arg.startsWith("--widget-bucket=")) {
+            } 
+            if (arg.startsWith("--widget-bucket=")) {
                 bucketName3 = arg.substring("--widget-bucket=".length());
+            }
+            if(arg.startsWith("--request-queue=")) {
+            	queueUrl = arg.substring("--request-queue=".length());
             }
         }
 
-        if (bucketName2 == null || bucketName3 == null) {
-           System.out.println("Missing arguments, buckets are missing");
+        if (bucketName2 == null || bucketName3 == null || queueUrl == null) {
+           log.info("Missing arguments, buckets are missing, sqs queue is missing");
         }
+        
         
         log.info("bucket name 2"+bucketName2);
         log.info("bucket name 3"+bucketName3);
+        log.info("sqs queueUrl"+queueUrl);
+        
+        if(queueUrl != null) {
+        	sqsComponent.getMessagesfromSQS(queueUrl,s3,bucketName3);
+        }
+        
+        if(bucketName2 != null && bucketName3 != null) {
+        	consumerApplication.process(s3,bucketName2,bucketName3);
+        }
 
-		ConsumerApplication consumerApplication = new ConsumerApplication();
-		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
-		dbComponent.describeTable("widgets");
-		consumerApplication.process(s3,bucketName2,bucketName3);
-        System.exit(0);
+//		consumerApplication.process(s3,bucketName2,bucketName3);
+      System.exit(0);
 	}
 
 }
