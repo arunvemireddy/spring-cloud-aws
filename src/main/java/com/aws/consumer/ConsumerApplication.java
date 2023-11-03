@@ -91,7 +91,7 @@ public class ConsumerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
 		ConsumerApplication consumerApplication = new ConsumerApplication();
-		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
+		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
 		log.info("consumer application for AWS s3 bucket");
 		
 	    String bucketName2 = null;
