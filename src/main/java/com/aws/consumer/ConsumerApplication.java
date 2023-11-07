@@ -92,23 +92,49 @@ public class ConsumerApplication {
 		SpringApplication.run(ConsumerApplication.class, args);
 		ConsumerApplication consumerApplication = new ConsumerApplication();
 		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
-		log.info("consumer application for AWS s3 bucket");
+		AwsDTO awsDTO = new AwsDTO();
 		
-	    String bucketName2 = null;
-        String bucketName3 = null;
+		log.info("consumer application for AWS");
+
+	    String bucketName2 = awsDTO.getBucketName2();
+        String bucketName3 = awsDTO.getBucketName3();
         String queueUrl = "https://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests";
 
         for (String arg : args) {
+            String prefix = null;
+            String value = null;
+
             if (arg.startsWith("--request-bucket=")) {
-                bucketName2 = arg.substring("--request-bucket=".length());
-            } 
-            if (arg.startsWith("--widget-bucket=")) {
-                bucketName3 = arg.substring("--widget-bucket=".length());
+                prefix = "--request-bucket=";
+            } else if (arg.startsWith("--widget-bucket=")) {
+                prefix = "--widget-bucket=";
+            } else if (arg.startsWith("--request-queue=")) {
+                prefix = "--request-queue=";
             }
-            if(arg.startsWith("--request-queue=")) {
-            	queueUrl = arg.substring("--request-queue=".length());
+
+            if (prefix != null) {
+                value = arg.substring(prefix.length());
+            }
+
+            if (value != null) {
+                switch (prefix) {
+                    case "--request-bucket=":
+                        bucketName2 = value;
+                        break;
+                    case "--widget-bucket=":
+                        bucketName3 = value;
+                        break;
+                    case "--request-queue=":
+                        queueUrl = value;
+                        break;
+                    default:
+                        // Handle unsupported argument
+                    	log.info("Missing Arguments");
+                        break;
+                }
             }
         }
+
 
         if (bucketName2 == null || bucketName3 == null || queueUrl == null) {
            log.info("Missing arguments, buckets are missing, sqs queue is missing");
