@@ -17,23 +17,28 @@ import com.aws.consumer.DTO.OtherAttribute;
 import com.aws.consumer.DTO.Widget;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.amazonaws.services.s3.model.S3Object;
 
 // HW3 InProgress
-// Author Arun
+// Author arun vemireddy
 
 public class SQSComponent {
 
 	public final static Logger log = LogManager.getLogger(SQSComponent.class);
 
-	public void getMessagesfromSQS(String queueUrl,AmazonS3 s3, String bucketName3) {
+	public void getMessagesfromSQS(AmazonS3 s3) {
+		AwsDTO awsDTO = new AwsDTO();
+		String queueUrl = awsDTO.getQueueUrl();
+		String bucketName3 = awsDTO.getBucketName3();
 		AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
+
 		GetQueueAttributesRequest request = new GetQueueAttributesRequest().withQueueUrl(queueUrl)
 				.withAttributeNames("ApproximateNumberOfMessages");
 
 		GetQueueAttributesResult result = sqs.getQueueAttributes(request);
 		String messageCount = result.getAttributes().get("ApproximateNumberOfMessages");
 		for (int i = 0; i < Integer.parseInt(messageCount); i++) {
-			receiveMessages(queueUrl, sqs,s3,bucketName3);
+			receiveMessages(queueUrl, sqs, s3, bucketName3);
 		}
 	}
 
@@ -52,19 +57,21 @@ public class SQSComponent {
 		}
 	}
 
-	void checkObjectSQS(JsonNode jsonNode, AmazonSQS sqs, String queueUrl, Message message, AmazonS3 s3, String bucketName3) {
+	void checkObjectSQS(JsonNode jsonNode, AmazonSQS sqs, String queueUrl, Message message, AmazonS3 s3,
+			String bucketName3) {
 
 		try {
 			log.info("request type" + jsonNode.get("type").toString());
+			String requestType = jsonNode.get("type").asText();
+			String objectKey = null;
 
-			if ("create".equals(jsonNode.get("type").asText())) {
-				log.info("created");
+			if ("create".equals(requestType)) {
+
 				Widget widget = new Widget();
 				widget.setId(jsonNode.get("widgetId").asText());
 				widget.setOwner(jsonNode.get("owner").asText());
 				widget.setDescription(jsonNode.get("description").asText());
 				JsonNode otherAttributesNode = jsonNode.get("otherAttributes");
-
 				List<OtherAttribute> otherAttributes = new ArrayList<>();
 				for (JsonNode attributeNode : otherAttributesNode) {
 					OtherAttribute otherAttribute = new OtherAttribute();
@@ -73,30 +80,34 @@ public class SQSComponent {
 					otherAttributes.add(otherAttribute);
 				}
 				widget.setOtherAttributes(otherAttributes);
-				String objectKey3 = "widgets/" + widget.getId();
+
+				objectKey = "widgets/" + widget.getId();
 				AwsDTO awsDTO = new AwsDTO();
-				s3.putObject(awsDTO.getBucketName3(), objectKey3, widget.toString());
-				
+				s3.putObject(awsDTO.getBucketName3(), objectKey, widget.toString());
+
 				S3Component s3Component = new S3Component();
 				s3Component.dynamoDBputObject(widget);
-				log.info(objectKey3 + "Object uploaded to bucket" + awsDTO.getBucketName3());
-				
+				log.info(objectKey + "Object uploaded to bucket" + awsDTO.getBucketName3());
+
 				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("message deleted from sqs, request type = created");
+				log.info("Message deleted from SQS, request type = {}", requestType);
 			}
 
-			if ("update".equals(jsonNode.get("type").asText())) {
+			else if ("update".equals(requestType)) {
+				S3Object s3Object = s3.getObject(bucketName3, objectKey);
+				log.info(s3Object);
 				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("message deleted from sqs, request type = updated");
+				log.info("Message deleted from SQS, request type = {}", requestType);
 			}
 
-			if ("delete".equals(jsonNode.get("type").asText())) {
+			else if ("delete".equals(requestType)) {
+				s3.deleteObject(bucketName3, objectKey);
 				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("message deleted from sqs, request type = deleted");
+				log.info("Message deleted from SQS, request type = {}", requestType);
 			}
-			
+
 		} catch (Exception e) {
-			log.error(e);
+			log.error("An unexpected exception occurred: {}", e.getMessage());
 		}
 	}
 }

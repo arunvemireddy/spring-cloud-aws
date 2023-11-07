@@ -10,6 +10,8 @@ public class AwsDTO {
 	private String bucketName2 = "usu-cs5260-ironman-requests";
 
 	private String bucketName3 = "usu-cs5260-ironman-web";
+	
+	private String queueUrl  = "https://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests";
 
 	private String requestType = "create";
 
@@ -18,6 +20,14 @@ public class AwsDTO {
 	private String regionName = "us-east-1";
 
 	private String tableName = "widgets";
+
+	public String getQueueUrl() {
+		return queueUrl;
+	}
+
+	public void setQueueUrl(String queueUrl) {
+		this.queueUrl = queueUrl;
+	}
 
 	public String getBucketName2() {
 		return bucketName2;

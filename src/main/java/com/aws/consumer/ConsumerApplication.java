@@ -98,7 +98,7 @@ public class ConsumerApplication {
 
 	    String bucketName2 = awsDTO.getBucketName2();
         String bucketName3 = awsDTO.getBucketName3();
-        String queueUrl = "https://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests";
+        String queueUrl = awsDTO.getQueueUrl();
 
         for (String arg : args) {
             String prefix = null;
@@ -120,12 +120,15 @@ public class ConsumerApplication {
                 switch (prefix) {
                     case "--request-bucket=":
                         bucketName2 = value;
+                        awsDTO.setBucketName2(bucketName2);
                         break;
                     case "--widget-bucket=":
                         bucketName3 = value;
+                        awsDTO.setBucketName3(bucketName3);
                         break;
                     case "--request-queue=":
                         queueUrl = value;
+                        awsDTO.setQueueUrl(queueUrl);
                         break;
                     default:
                         // Handle unsupported argument
@@ -137,23 +140,25 @@ public class ConsumerApplication {
 
 
         if (bucketName2 == null || bucketName3 == null || queueUrl == null) {
-           log.info("Missing arguments, buckets are missing, sqs queue is missing");
+        	log.info("Missing arguments: Buckets and SQS queue URL are not provided.");
         }
         
+        log.info("Bucket Name 2: {}", bucketName2);
+        log.info("Bucket Name 3: {}", bucketName3);
+        log.info("SQS Queue URL: {}", queueUrl);
+
         
-        log.info("bucket name 2"+bucketName2);
-        log.info("bucket name 3"+bucketName3);
-        log.info("sqs queueUrl"+queueUrl);
-        
-        if(queueUrl != null) {
-        	sqsComponent.getMessagesfromSQS(queueUrl,s3,bucketName3);
-        }
-        
-        if(bucketName2 != null && bucketName3 != null) {
-        	consumerApplication.process(s3,bucketName2,bucketName3);
+     // Check if queueUrl is provided, then retrieve messages from SQS
+        if (queueUrl != null) {
+//        	HW3
+            sqsComponent.getMessagesfromSQS(s3);
         }
 
-//		consumerApplication.process(s3,bucketName2,bucketName3);
+        // Check if both bucket names are provided, then process
+        if (bucketName2 != null && bucketName3 != null) {
+//        	HW2
+            consumerApplication.process(s3, bucketName2, bucketName3);
+        }
         
       System.exit(0);
 	}

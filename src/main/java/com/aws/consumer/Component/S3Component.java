@@ -52,15 +52,15 @@ public class S3Component {
 		if (requestType.equals(jsonNode.get("type").asText())) {
 			s3.putObject(bucketName3, objectKey3, widget.toString());
 			dynamoDBputObject(widget);
-			log.info(objectKey3 + "Object uploaded to bucket" + bucketName3);
+			log.info("{} Object uploaded to bucket {}", objectKey3, bucketName3);
 			s3.deleteObject(bucketName2, objectKey2);
-			log.info(objectKey2 + "is deleted from bucket" + bucketName2);
+			log.info("{} is deleted from bucket {}", objectKey2, bucketName2);
 
 		} else {
 //        	deleting other requests(delete and update)
 			deleteObject(s3, bucketName2, objectKey2);
 			updateObject(s3, bucketName2, objectKey2);
-			log.info(objectKey2 + "is deleted from bucket" + bucketName2);
+			log.info("{} is deleted from bucket {}", objectKey2, bucketName2);
 		}
 	}
 
@@ -69,7 +69,7 @@ public class S3Component {
 		try {
 			s3.deleteObject(bucketName, objectKey);
 		} catch (Exception e) {
-			log.info("object is not deleted" + objectKey);
+			log.info("Object '{}' is not deleted", objectKey);
 		}
 	}
 
@@ -78,7 +78,7 @@ public class S3Component {
 		try {
 			s3.deleteObject(bucketName, objectKey);
 		} catch (Exception e) {
-			log.info("object is not deleted" + objectKey);
+			log.info("Object '{}' is not deleted", objectKey);
 		}
 	}
 // dynamoDB
