@@ -19,20 +19,16 @@ import com.fasterxml.jackson.databind.JsonNode;
 //source https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
 @Component
 public class S3Component {
-	
-	public static AwsDTO awsDTO;
+
 	public static DynamoDBComponent dbComponent;
 
 	public S3Component() {
-		awsDTO = new AwsDTO();
 		dbComponent = new DynamoDBComponent();
 	}
 
 	public final static Logger log = LogManager.getLogger(ConsumerApplication.class);
 	
-//	putMethod
-	public void putObject(JsonNode jsonNode, String bucketName3, String bucketName2, String objectKey2,
-			String requestType, AmazonS3 s3) {
+	public Widget setWidget(JsonNode jsonNode) {
 		Widget widget = new Widget();
 		widget.setId(jsonNode.get("widgetId").asText());
 		widget.setOwner(jsonNode.get("owner").asText());
@@ -47,42 +43,67 @@ public class S3Component {
 			otherAttributes.add(otherAttribute);
 		}
 		widget.setOtherAttributes(otherAttributes);
+		return widget;
+	}
+
+
+	public void processObject(JsonNode jsonNode, String bucketName3, String bucketName2, String objectKey2,
+			AmazonS3 s3) {
+		
+		Widget widget = setWidget(jsonNode);
 		String objectKey3 = "widgets/" + widget.getId();
+		String requestType = jsonNode.get("type").asText();
+		log.info("Request type: {}", requestType);
 
-		if (requestType.equals(jsonNode.get("type").asText())) {
-			s3.putObject(bucketName3, objectKey3, widget.toString());
+		if ("create".equals(requestType)) {
+			putObjectInBucket(s3, bucketName2, objectKey2, widget.toString());
 			dynamoDBputObject(widget);
-			log.info("{} Object uploaded to bucket {}", objectKey3, bucketName3);
-			s3.deleteObject(bucketName2, objectKey2);
-			log.info("{} is deleted from bucket {}", objectKey2, bucketName2);
+			deleteObjectFromBucket(s3, bucketName2, objectKey2);
 
-		} else {
-//        	deleting other requests(delete and update)
-			deleteObject(s3, bucketName2, objectKey2);
-			updateObject(s3, bucketName2, objectKey2);
-			log.info("{} is deleted from bucket {}", objectKey2, bucketName2);
+		} else if ("update".equals(requestType)) {
+			updateObjectInBucket(s3, bucketName3, objectKey3, widget.toString());
+			deleteObjectFromBucket(s3, bucketName2, objectKey2);
+
+		} else if ("delete".equals(requestType)) {
+			deleteObjectFromBucket(s3, bucketName2, objectKey2);
+			deleteObjectFromBucket(s3, bucketName3, objectKey3);
 		}
 	}
 
-//	deleteObject
-	public void deleteObject(AmazonS3 s3, String bucketName, String objectKey) {
+	public void putObjectInBucket(AmazonS3 s3, String bucketName, String objectKey, String widget) {
 		try {
-			s3.deleteObject(bucketName, objectKey);
+			s3.putObject(bucketName, objectKey, widget);
+			log.info("{} Object uploaded to bucket {}", objectKey, bucketName);
 		} catch (Exception e) {
-			log.info("Object '{}' is not deleted", objectKey);
+			log.error(e.getMessage());
 		}
 	}
 
-//	updateObject
-	public void updateObject(AmazonS3 s3, String bucketName, String objectKey) {
+	public void updateObjectInBucket(AmazonS3 s3, String bucketName, String objectKey, String widgetString) {
+		deleteObjectFromBucket(s3, bucketName, objectKey);
 		try {
-			s3.deleteObject(bucketName, objectKey);
+			s3.putObject(bucketName, objectKey, widgetString);
 		} catch (Exception e) {
-			log.info("Object '{}' is not deleted", objectKey);
+			log.error("Error updating object '{}' in bucket '{}': {}", objectKey, bucketName, e.getMessage());
 		}
 	}
-// dynamoDB
+
+	public void deleteObjectFromBucket(AmazonS3 s3, String bucketName, String objectKey) {
+		try {
+			if (s3.doesObjectExist(bucketName, objectKey)) {
+				s3.deleteObject(bucketName, objectKey);
+				log.info("Object '{}' deleted from bucket '{}'", objectKey, bucketName);
+			} else {
+				log.info("Object '{}' does not exist in bucket '{}'", objectKey, bucketName);
+			}
+
+		} catch (Exception e) {
+			log.error("Error deleting object '{}' from bucket '{}': {}", objectKey, bucketName, e.getMessage());
+		}
+	}
+
 	public void dynamoDBputObject(Widget widget) {
-		dbComponent.putItem("widgets",widget.getId(),widget.getOwner(), widget.getDescription(), widget.getOtherAttributes());
+		dbComponent.putItem("widgets", widget.getId(), widget.getOwner(), widget.getDescription(),
+				widget.getOtherAttributes());
 	}
 }

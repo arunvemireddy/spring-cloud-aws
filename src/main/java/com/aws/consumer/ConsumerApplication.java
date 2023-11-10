@@ -57,11 +57,9 @@ public class ConsumerApplication {
 				try (BufferedReader reader = new BufferedReader(new InputStreamReader(s3Object.getObjectContent()))) {
 					String json = reader.readLine();
 					JsonNode jsonNode = objectMapper.readTree(json);
-					s3Component.putObject(jsonNode, awsDTO.getBucketName3(), awsDTO.getBucketName2(), objectKey2,
-							awsDTO.getRequestType(), s3);
-
+					s3Component.processObject(jsonNode, awsDTO.getBucketName3(), awsDTO.getBucketName2(), objectKey2, s3);
 				} catch (Exception e) {
-//					some requests does not have type or object key is invalid so I am deleting those objects here
+					log.error("Unexpected error: {}", e.getMessage());
 					s3.deleteObject(awsDTO.getBucketName2(), objectKey2);
 				}
 			}
@@ -91,14 +89,14 @@ public class ConsumerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
 		ConsumerApplication consumerApplication = new ConsumerApplication();
-		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
+		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
 		AwsDTO awsDTO = new AwsDTO();
 		
 		log.info("consumer application for AWS");
 
-	    String bucketName2 = awsDTO.getBucketName2();
-        String bucketName3 = awsDTO.getBucketName3();
-        String queueUrl = awsDTO.getQueueUrl();
+	    String bucketName2 = null;
+        String bucketName3 = null;
+        String queueUrl = null;
 
         for (String arg : args) {
             String prefix = null;
@@ -151,7 +149,7 @@ public class ConsumerApplication {
      // Check if queueUrl is provided, then retrieve messages from SQS
         if (queueUrl != null) {
 //        	HW3
-            sqsComponent.getMessagesfromSQS(s3);
+//            sqsComponent.getMessagesfromSQS(s3);
         }
 
         // Check if both bucket names are provided, then process

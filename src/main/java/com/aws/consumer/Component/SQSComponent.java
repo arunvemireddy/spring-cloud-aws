@@ -5,10 +5,12 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder;
+import com.amazonaws.services.sqs.model.AmazonSQSException;
 import com.amazonaws.services.sqs.model.GetQueueAttributesRequest;
 import com.amazonaws.services.sqs.model.GetQueueAttributesResult;
 import com.amazonaws.services.sqs.model.Message;
@@ -17,13 +19,12 @@ import com.aws.consumer.DTO.OtherAttribute;
 import com.aws.consumer.DTO.Widget;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.amazonaws.services.s3.model.S3Object;
 
-// HW3 InProgress
 // Author arun vemireddy
 
+@Component
 public class SQSComponent {
-
+	
 	public final static Logger log = LogManager.getLogger(SQSComponent.class);
 
 	public void getMessagesfromSQS(AmazonS3 s3) {
@@ -35,11 +36,16 @@ public class SQSComponent {
 		GetQueueAttributesRequest request = new GetQueueAttributesRequest().withQueueUrl(queueUrl)
 				.withAttributeNames("ApproximateNumberOfMessages");
 
-		GetQueueAttributesResult result = sqs.getQueueAttributes(request);
-		String messageCount = result.getAttributes().get("ApproximateNumberOfMessages");
-		for (int i = 0; i < Integer.parseInt(messageCount); i++) {
-			receiveMessages(queueUrl, sqs, s3, bucketName3);
+		try {
+			GetQueueAttributesResult result = sqs.getQueueAttributes(request);
+			String messageCount = result.getAttributes().get("ApproximateNumberOfMessages");
+			for (int i = 0; i < Integer.parseInt(messageCount); i++) {
+				receiveMessages(queueUrl, sqs, s3, bucketName3);
+			}
+		} catch (AmazonSQSException e) {
+			log.error("Error getting SQS queue attributes: {}", e.getMessage());
 		}
+
 	}
 
 	public void receiveMessages(String queueUrl, AmazonSQS sqs, AmazonS3 s3, String bucketName3) {
@@ -50,64 +56,48 @@ public class SQSComponent {
 				String body = message.getBody();
 				ObjectMapper objectMapper = new ObjectMapper();
 				JsonNode jsonNode = objectMapper.readTree(body);
-				checkObjectSQS(jsonNode, sqs, queueUrl, message, s3, bucketName3);
+				processMessageSQS(jsonNode, sqs, queueUrl, message, s3, bucketName3);
 			}
 		} catch (Exception e) {
 			log.error(e);
 		}
 	}
 
-	void checkObjectSQS(JsonNode jsonNode, AmazonSQS sqs, String queueUrl, Message message, AmazonS3 s3,
+	public void processMessageSQS(JsonNode jsonNode, AmazonSQS sqs, String queueUrl, Message message, AmazonS3 s3,
 			String bucketName3) {
+		S3Component s3Component = new S3Component();
 
 		try {
-			log.info("request type" + jsonNode.get("type").toString());
+
+			Widget widget = s3Component.setWidget(jsonNode);
+			String objectKey3 = "widgets/" + widget.getId();
 			String requestType = jsonNode.get("type").asText();
-			String objectKey = null;
+			log.info("Request type: {}", requestType);
 
 			if ("create".equals(requestType)) {
-
-				Widget widget = new Widget();
-				widget.setId(jsonNode.get("widgetId").asText());
-				widget.setOwner(jsonNode.get("owner").asText());
-				widget.setDescription(jsonNode.get("description").asText());
-				JsonNode otherAttributesNode = jsonNode.get("otherAttributes");
-				List<OtherAttribute> otherAttributes = new ArrayList<>();
-				for (JsonNode attributeNode : otherAttributesNode) {
-					OtherAttribute otherAttribute = new OtherAttribute();
-					otherAttribute.setName(attributeNode.get("name").asText());
-					otherAttribute.setValue(attributeNode.get("value").asText());
-					otherAttributes.add(otherAttribute);
-				}
-				widget.setOtherAttributes(otherAttributes);
-
-				objectKey = "widgets/" + widget.getId();
-				AwsDTO awsDTO = new AwsDTO();
-				s3.putObject(awsDTO.getBucketName3(), objectKey, widget.toString());
-
-				S3Component s3Component = new S3Component();
+				s3Component.putObjectInBucket(s3, bucketName3, objectKey3, widget.toString());
 				s3Component.dynamoDBputObject(widget);
-				log.info(objectKey + "Object uploaded to bucket" + awsDTO.getBucketName3());
-
-				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("Message deleted from SQS, request type = {}", requestType);
+				deleteMessageFromQueue(queueUrl, message, sqs, requestType);
 			}
 
 			else if ("update".equals(requestType)) {
-				S3Object s3Object = s3.getObject(bucketName3, objectKey);
-				log.info(s3Object);
-				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("Message deleted from SQS, request type = {}", requestType);
+				s3Component.updateObjectInBucket(s3, bucketName3, objectKey3, widget.toString());
+				deleteMessageFromQueue(queueUrl, message, sqs, requestType);
 			}
 
 			else if ("delete".equals(requestType)) {
-				s3.deleteObject(bucketName3, objectKey);
-				sqs.deleteMessage(queueUrl, message.getReceiptHandle());
-				log.info("Message deleted from SQS, request type = {}", requestType);
+				s3Component.deleteObjectFromBucket(s3, bucketName3, objectKey3);
+				deleteMessageFromQueue(queueUrl, message, sqs, requestType);
 			}
 
 		} catch (Exception e) {
 			log.error("An unexpected exception occurred: {}", e.getMessage());
 		}
 	}
+
+	public void deleteMessageFromQueue(String queueUrl, Message message, AmazonSQS sqs, String requestType) {
+		sqs.deleteMessage(queueUrl, message.getReceiptHandle());
+		log.info("Message deleted from SQS, request type = {}", requestType);
+	}
+
 }

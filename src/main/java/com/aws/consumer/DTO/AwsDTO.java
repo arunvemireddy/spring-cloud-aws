@@ -7,13 +7,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class AwsDTO {
 
-	private String bucketName2 = "usu-cs5260-ironman-requests";
+	private String bucketName2;
 
-	private String bucketName3 = "usu-cs5260-ironman-web";
+	private String bucketName3;
 	
-	private String queueUrl  = "https://sqs.us-east-1.amazonaws.com/725671772159/cs5260-requests";
+	private String queueUrl;
 
-	private String requestType = "create";
+	private String requestType;
 
 	private String programEnded = "programEnded";
 
