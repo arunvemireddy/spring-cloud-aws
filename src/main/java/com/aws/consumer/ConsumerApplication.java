@@ -155,10 +155,10 @@ public class ConsumerApplication {
         // Check if both bucket names are provided, then process
         if (bucketName2 != null && bucketName3 != null) {
 //        	HW2
-            consumerApplication.process(s3, bucketName2, bucketName3);
+//            consumerApplication.process(s3, bucketName2, bucketName3);
         }
         
-      System.exit(0);
+//      System.exit(0);
 	}
 
 }

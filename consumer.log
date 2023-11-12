@@ -1080,3 +1080,34 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2023-11-06 18:39:39 [main] INFO  c.a.consumer.Component.SQSComponent - widgets/49715902-2b5a-431e-ab8d-979a806f26e0Object uploaded to bucketusu-cs5260-ironman-web
 2023-11-06 18:39:39 [main] INFO  c.a.consumer.Component.SQSComponent - Message deleted from SQS, request type = create
 2023-11-06 18:39:39 [main] INFO  c.a.consumer.Component.SQSComponent - request type"create"
+2023-11-12 15:11:32 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 33309 (/Users/arun/Documents/cc2/HW4/code-hw4/target/classes started by arun in /Users/arun/Documents/cc2/HW4/code-hw4)
+2023-11-12 15:11:32 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-12 15:11:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-12 15:11:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-12 15:11:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-12 15:11:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-12 15:11:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 531 ms
+2023-11-12 15:11:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.266 seconds (process running for 1.979)
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - Missing arguments: Buckets and SQS queue URL are not provided.
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - Bucket Name 2: null
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - Bucket Name 3: null
+2023-11-12 15:11:33 [main] INFO  c.aws.consumer.ConsumerApplication - SQS Queue URL: null
+2023-11-12 15:13:55 [main] INFO  c.aws.consumer.ConsumerApplication - Starting ConsumerApplication using Java 19.0.1 with PID 33380 (/Users/arun/Documents/cc2/HW4/code-hw4/target/classes started by arun in /Users/arun/Documents/cc2/HW4/code-hw4)
+2023-11-12 15:13:55 [main] INFO  c.aws.consumer.ConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-12 15:13:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-12 15:13:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-12 15:13:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-12 15:13:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-12 15:13:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 595 ms
+2023-11-12 15:13:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - Started ConsumerApplication in 1.376 seconds (process running for 1.717)
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - consumer application for AWS
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - Missing arguments: Buckets and SQS queue URL are not provided.
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - Bucket Name 2: null
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - Bucket Name 3: null
+2023-11-12 15:13:57 [main] INFO  c.aws.consumer.ConsumerApplication - SQS Queue URL: null
+2023-11-12 15:14:10 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-12 15:14:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-12 15:14:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
