@@ -28,13 +28,13 @@ public class ConsumerApplication {
 	public static AwsDTO awsDTO;
 	public static S3Component s3Component;
 	public static DynamoDBComponent dbComponent;
-	public static SQSComponent sqsComponent;
+//	public static SQSComponent sqsComponent;
 
 	public ConsumerApplication() {
 		awsDTO = new AwsDTO();
 		s3Component = new S3Component();
 		dbComponent = new DynamoDBComponent();
-		sqsComponent = new SQSComponent();
+		
 	}
 
 	public final static Logger log = LogManager.getLogger(ConsumerApplication.class);
@@ -89,7 +89,7 @@ public class ConsumerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
 		ConsumerApplication consumerApplication = new ConsumerApplication();
-		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(awsDTO.getRegionName()).build();
+		AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion("us-east-1").build();
 		AwsDTO awsDTO = new AwsDTO();
 		
 		log.info("consumer application for AWS");
@@ -141,21 +141,21 @@ public class ConsumerApplication {
         	log.info("Missing arguments: Buckets and SQS queue URL are not provided.");
         }
         
-        log.info("Bucket Name 2: {}", bucketName2);
-        log.info("Bucket Name 3: {}", bucketName3);
-        log.info("SQS Queue URL: {}", queueUrl);
+        log.info("Bucket Name 2: {}", awsDTO.getBucketName2());
+        log.info("Bucket Name 3: {}", awsDTO.getBucketName3());
+        log.info("SQS Queue URL: {}", awsDTO.getQueueUrl());
 
-        
+        SQSComponent sqsComponent = new SQSComponent();
      // Check if queueUrl is provided, then retrieve messages from SQS
         if (queueUrl != null) {
-//        	HW3
-//            sqsComponent.getMessagesfromSQS(s3);
+//        	HW4
+            sqsComponent.getMessagesfromSQS(s3,awsDTO.getBucketName3(),awsDTO.getQueueUrl());
         }
 
         // Check if both bucket names are provided, then process
         if (bucketName2 != null && bucketName3 != null) {
 //        	HW2
-//            consumerApplication.process(s3, bucketName2, bucketName3);
+            consumerApplication.process(s3, bucketName2, bucketName3);
         }
         
 //      System.exit(0);

@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import com.aws.consumer.DTO.Widget;
 
-@RestController
-@CrossOrigin(origins = "*")
+//@RestController
+//@CrossOrigin(origins = "*")
 public class WidgetController {
 
-    @GetMapping(path = "/welcome")
-    public ResponseEntity<String> welcome(){
-        return new ResponseEntity<String>("hello, welcome", HttpStatus.OK);
-    }
-
-    @PostMapping(path="/widgetRequest")
-    public ResponseEntity<String> process(@RequestBody Widget widget){
-        return new ResponseEntity<String>(widget.toString(), HttpStatus.OK);
-    }
+//    @GetMapping(path = "/welcome")
+//    public ResponseEntity<String> welcome(){
+//        return new ResponseEntity<String>("hello, welcome", HttpStatus.OK);
+//    }
+//
+//    @PostMapping(path="/widgetRequest")
+//    public ResponseEntity<String> process(@RequestBody Widget widget){
+//        return new ResponseEntity<String>(widget.toString(), HttpStatus.OK);
+//    }
 }

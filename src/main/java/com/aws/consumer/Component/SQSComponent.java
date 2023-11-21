@@ -27,17 +27,16 @@ public class SQSComponent {
 	
 	public final static Logger log = LogManager.getLogger(SQSComponent.class);
 
-	public void getMessagesfromSQS(AmazonS3 s3) {
-		AwsDTO awsDTO = new AwsDTO();
-		String queueUrl = awsDTO.getQueueUrl();
-		String bucketName3 = awsDTO.getBucketName3();
+	public void getMessagesfromSQS(AmazonS3 s3, String bucketName3, String queueUrl) {
+		log.info("queue URL = {}",queueUrl);
 		AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
-
 		GetQueueAttributesRequest request = new GetQueueAttributesRequest().withQueueUrl(queueUrl)
 				.withAttributeNames("ApproximateNumberOfMessages");
+		log.info(request);
 
 		try {
 			GetQueueAttributesResult result = sqs.getQueueAttributes(request);
+			log.info(result);
 			String messageCount = result.getAttributes().get("ApproximateNumberOfMessages");
 			for (int i = 0; i < Integer.parseInt(messageCount); i++) {
 				receiveMessages(queueUrl, sqs, s3, bucketName3);
